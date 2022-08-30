@@ -342,6 +342,7 @@ GameObject:
   - component: {fileID: 1291391321409658251}
   - component: {fileID: 7150795604652928290}
   - component: {fileID: 8106018239458126509}
+  - component: {fileID: -6625486498796251124}
   m_Layer: 6
   m_Name: AgentML_RED
   m_TagString: Agent
@@ -544,6 +545,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 592e7fec45e7744468c27b276771c90f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &-6625486498796251124
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3159207089541083966}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 93db6b8df81ced14b96c8433270e1f42, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  color: 2
+  type: 1
+  isFlag: 0
 --- !u!1 &3159220377413354350
 GameObject:
   m_ObjectHideFlags: 0
