@@ -18,7 +18,6 @@ public class AgentMovementWSAD : Agent
     private List<GameObject> teamRed = new List<GameObject>{};
     public static int numberOfSteps = 0;
 
-
     void Start()
     {
         GetTeams();
@@ -64,24 +63,11 @@ public class AgentMovementWSAD : Agent
 
     public override void CollectObservations(VectorSensor sensor)
     {
-
+        //jak juz zaczniemy uzywac to odkomentowac:
        // float[,] arrRays = raysPerception(); //40 floatow
-      //  for (int i = 0; i < 10; i++) //numberofrays! todo
-      //  {
-     //       for(int j = 0; j < 4; j++)
-     //       {
-     //           sensor.AddObservation(arrRays[i,j]);
-     //       }
-            
-     //   }
-     //   int[] arint = GetComponent<BiomEyesScript>().GetBiomSensors();
-
-    //    for(int i =0; i<arint.Length;i++){w
-     //       sensor.AddObservation((float)arint[i]);
-     //   }
-        
-
+       //
     }
+
 
     private float[,] raysPerception()
     {
@@ -92,7 +78,7 @@ public class AgentMovementWSAD : Agent
         float startDegree = -90.0f;//zawsze musi byc ujemne bo jebnie!
         float stepDegree = -2 * startDegree / (float)numberOfRays;
         
-                                                //
+
         float[,] outputArray = new float[10,4]; //10 promieni, po 4 zmienne, i,0-distance, i,1 - rodzaj, i,2 kolor, i,3 czy z flaga?
         RaycastHit hit;
         Ray ray;
@@ -105,12 +91,8 @@ public class AgentMovementWSAD : Agent
                 Debug.DrawRay(ray.origin, ray.direction * hit.distance, Color.red);
                 // Debug.Log(this.name + "Ray"+i+ "Did Hit: " + hit.collider.gameObject+" in distance: " + +hit.distance);
                 outputArray[i, 0] = hit.distance;
-                rayResponseComponent rayrespond = hit.collider.gameObject.GetComponent<rayResponseComponent>();
-                outputArray[i, 1] = rayrespond.type;
-                float col = rayrespond.color;
-                outputArray[i, 2] = col;
-                outputArray[i, 3] = rayrespond.isFlag;
-                Debug.Log(rayrespond.color);
+                //hit.collider.gameObject.GetComponent(typeof(RayResponder));
+                //Debug.Log(RayResponder.message());
 
             }
             else
@@ -156,7 +138,6 @@ public class AgentMovementWSAD : Agent
 
         //dla widzenia promieni
         raysPerception();
-        GetComponent<BiomEyesScript>().GetBiomSensors();
     }
 
 

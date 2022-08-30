@@ -460,7 +460,6 @@ GameObject:
   - component: {fileID: 1291391321409658251}
   - component: {fileID: -2509039496142268469}
   - component: {fileID: 7577925535276625970}
-  - component: {fileID: 2981561956007967294}
   m_Layer: 6
   m_Name: AgentML_BLUE
   m_TagString: Agent
@@ -630,7 +629,7 @@ MonoBehaviour:
     hasUpgradedBrainParametersWithActionSpec: 1
   m_Model: {fileID: 0}
   m_InferenceDevice: 0
-  m_BehaviorType: 1
+  m_BehaviorType: 0
   m_BehaviorName: My Behavior
   TeamId: 0
   m_UseChildSensors: 1
@@ -663,21 +662,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 592e7fec45e7744468c27b276771c90f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!114 &2981561956007967294
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3159207089541083966}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 93db6b8df81ced14b96c8433270e1f42, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  color: 1
-  type: 1
-  isFlag: 0
 --- !u!1 &3159220377413354350
 GameObject:
   m_ObjectHideFlags: 0
