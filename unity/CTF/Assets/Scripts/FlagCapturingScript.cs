@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class FlagCapturingScript : MonoBehaviour
 {
@@ -26,15 +27,15 @@ public class FlagCapturingScript : MonoBehaviour
         Debug.Log("Team " + color + " wins!");
         if (color == "blue")
         {
-            collidingAgent.GetComponent<AgentMovementWSAD>().AddRewardTeam(rewardValues.rewards["gameLost"], "red");
-            collidingAgent.GetComponent<AgentMovementWSAD>().AddRewardTeam(rewardValues.rewards["gameWon"], "blue");
-            collidingAgent.GetComponent<AgentMovementWSAD>().EndEpisodeForAllAgents();
+            getSGS().AddRewardTeam(rewardValues.rewards["gameLost"], "red");
+            getSGS().AddRewardTeam(rewardValues.rewards["gameWon"], "blue");
+            getSGS().EndEpisodeForAllAgents();
         }
         else
         {
-            collidingAgent.GetComponent<AgentMovementWSAD>().AddRewardTeam(rewardValues.rewards["gameLost"], "blue");
-            collidingAgent.GetComponent<AgentMovementWSAD>().AddRewardTeam(rewardValues.rewards["gameWon"], "red");
-            collidingAgent.GetComponent<AgentMovementWSAD>().EndEpisodeForAllAgents();
+            getSGS().AddRewardTeam(rewardValues.rewards["gameLost"], "blue");
+            getSGS().AddRewardTeam(rewardValues.rewards["gameWon"], "red");
+            getSGS().EndEpisodeForAllAgents();
         }
     }
 
@@ -86,5 +87,12 @@ public class FlagCapturingScript : MonoBehaviour
                 }
             }
         }
+    }
+    public StartGameScript getSGS()
+    {
+        Scene sceneMain = SceneManager.GetActiveScene();
+        GameObject interfaceCamera = sceneMain.GetRootGameObjects()[7].gameObject;
+        StartGameScript startGameScript = interfaceCamera.GetComponentInChildren<StartGameScript>();
+        return startGameScript;
     }
 }

@@ -7,6 +7,8 @@ public class StartGameScript : MonoBehaviour
 {
     public SimpleMultiAgentGroup redAgentGroup;
     public SimpleMultiAgentGroup blueAgentGroup;
+    private BlueBaseScript blueBaseScript;
+    private RedBaseScript redBaseScript;
     // Start is called before the first frame update
     void Start()
     {
@@ -21,8 +23,8 @@ public class StartGameScript : MonoBehaviour
 
     public void StartGame()
     {
-        var blueBaseScript = GameObject.Find("Blue Base(Clone)").GetComponent<BlueBaseScript>();
-        var redBaseScript = GameObject.Find("Red Base(Clone)").GetComponent<RedBaseScript>();
+        blueBaseScript = GameObject.Find("Blue Base(Clone)").GetComponent<BlueBaseScript>();
+        redBaseScript = GameObject.Find("Red Base(Clone)").GetComponent<RedBaseScript>();
 
         GameObject.Find("ButtonStart").GetComponent<UnityEngine.UI.Button>().interactable = false;
         GameObject.Find("ButtonPlaceBlue").GetComponent<UnityEngine.UI.Button>().interactable = false;
@@ -33,5 +35,24 @@ public class StartGameScript : MonoBehaviour
 
         redAgentGroup = redBaseScript.m_AgentGroup;
         blueAgentGroup = blueBaseScript.m_AgentGroup;
+    }
+    public void EndEpisodeForAllAgents()
+    {
+        Debug.Log("ENDEPISODE!");
+        redBaseScript.m_AgentGroup.EndGroupEpisode();
+        blueBaseScript.m_AgentGroup.EndGroupEpisode();
+
+        
+    }
+    public void AddRewardTeam(float reward, string color)
+    {
+        if (color == "blue")
+        {
+            blueBaseScript.m_AgentGroup.AddGroupReward(reward);
+        }
+        else
+        {
+            redBaseScript.m_AgentGroup.AddGroupReward(reward);
+        }
     }
 }

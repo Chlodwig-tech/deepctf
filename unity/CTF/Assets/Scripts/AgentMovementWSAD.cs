@@ -5,6 +5,7 @@ using Unity.MLAgents;
 using Unity.MLAgents.Actuators;
 using Unity.MLAgents.Policies;
 using Unity.MLAgents.Sensors;
+using UnityEngine.SceneManagement;
 
 public class AgentMovementWSAD : Agent
 {
@@ -20,7 +21,7 @@ public class AgentMovementWSAD : Agent
 
     void Start()
     {
-        GetTeams();
+        //GetTeams();
     }
 
     public override void OnActionReceived(ActionBuffers actionBuffers)
@@ -159,23 +160,6 @@ public class AgentMovementWSAD : Agent
         AddReward(reward);
     }
 
-    public void AddRewardTeam(float reward, string color)
-    {
-        if (color == "blue")
-        {
-            foreach (GameObject agent in teamBlue)
-            {
-                agent.GetComponent<AgentMovementWSAD>().AddRewardAgent(reward);
-            }
-        }
-        else
-        {
-            foreach (GameObject agent in teamRed)
-            {
-                agent.GetComponent<AgentMovementWSAD>().AddRewardAgent(reward);
-            }
-        }
-    }
 
     public void Kill()
     {
@@ -183,7 +167,7 @@ public class AgentMovementWSAD : Agent
         rewardValues.getRewardValues();
         AddRewardAgent(rewardValues.rewards["agentDead"]);
         gameObject.SetActive(false);
-
+        
         CheckIfLost();
     }
 
@@ -208,43 +192,44 @@ public class AgentMovementWSAD : Agent
             if (gameObject.GetComponent<AgentComponentsScript>().color == "blue")
             {
                 Debug.Log("Team red wins!");
-                AddRewardTeam(rewardValues.rewards["gameLost"], "blue");
-                AddRewardTeam(rewardValues.rewards["gameWon"], "red");
-                EndEpisodeForAllAgents();
+                getSGS().AddRewardTeam(rewardValues.rewards["gameLost"], "blue");
+                getSGS().AddRewardTeam(rewardValues.rewards["gameWon"], "red");
+                getSGS().EndEpisodeForAllAgents();
             }
             else
             {
                 Debug.Log("Team blue wins!");
-                AddRewardTeam(rewardValues.rewards["gameLost"], "red");
-                AddRewardTeam(rewardValues.rewards["gameWon"], "blue");
-                EndEpisodeForAllAgents();
+                getSGS().AddRewardTeam(rewardValues.rewards["gameLost"], "red");
+                getSGS().AddRewardTeam(rewardValues.rewards["gameWon"], "blue");
+                getSGS().EndEpisodeForAllAgents();
             }
         }
     }
 
-    public void EndEpisodeForAllAgents()
+    public override void OnEpisodeBegin()
     {
-        Transform agents = gameObject.transform.parent.transform.parent;
-        Transform redAgents = agents.GetChild(0);
-        Transform blueAgents = agents.GetChild(1);
-        for (int i = 0; i < gameObject.transform.parent.childCount; i++)
-        {
-            var redAgent = redAgents.GetChild(i).gameObject;
-            var blueAgent = blueAgents.GetChild(i).gameObject;
-            redAgent.GetComponent<AgentMovementWSAD>().EndEpisode();
-            blueAgent.GetComponent<AgentMovementWSAD>().EndEpisode();
-        }
+        Debug.Log("EPISODE BEGIN");
+        //getSGS().StartGame();
+       
     }
 
-    private void GetTeams()
+
+    //private void GetTeams()
+    //{
+    //    Transform agents = gameObject.transform.parent.transform.parent;
+    //    Transform redAgents = agents.GetChild(0);
+    //    Transform blueAgents = agents.GetChild(1);
+    //    for (int i = 0; i < gameObject.transform.parent.childCount; i++)
+    //    {
+    //        teamRed.Add(redAgents.GetChild(i).gameObject);
+    //        teamBlue.Add(blueAgents.GetChild(i).gameObject);
+    //    }
+    //}
+    public StartGameScript getSGS()
     {
-        Transform agents = gameObject.transform.parent.transform.parent;
-        Transform redAgents = agents.GetChild(0);
-        Transform blueAgents = agents.GetChild(1);
-        for (int i = 0; i < gameObject.transform.parent.childCount; i++)
-        {
-            teamRed.Add(redAgents.GetChild(i).gameObject);
-            teamBlue.Add(blueAgents.GetChild(i).gameObject);
-        }
+        Scene sceneMain = SceneManager.GetActiveScene();
+        GameObject interfaceCamera = sceneMain.GetRootGameObjects()[7].gameObject;
+        StartGameScript startGameScript = interfaceCamera.GetComponentInChildren<StartGameScript>();
+        return startGameScript;
     }
 }
