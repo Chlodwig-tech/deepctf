@@ -27,15 +27,17 @@ public class FlagCapturingScript : MonoBehaviour
         Debug.Log("Team " + color + " wins!");
         if (color == "blue")
         {
-            getSGS().AddRewardTeam(rewardValues.rewards["gameLost"], "red");
-            getSGS().AddRewardTeam(rewardValues.rewards["gameWon"], "blue");
-            getSGS().EndEpisodeForAllAgents();
+            GameManager.AddRewardTeam(rewardValues.rewards["gameLost"], "red");
+            GameManager.AddRewardTeam(rewardValues.rewards["gameWon"], "blue");
+            GameManager.blueAgentGroup.EndGroupEpisode();
+            GameManager.redAgentGroup.EndGroupEpisode();
         }
         else
         {
-            getSGS().AddRewardTeam(rewardValues.rewards["gameLost"], "blue");
-            getSGS().AddRewardTeam(rewardValues.rewards["gameWon"], "red");
-            getSGS().EndEpisodeForAllAgents();
+            GameManager.AddRewardTeam(rewardValues.rewards["gameLost"], "blue");
+            GameManager.AddRewardTeam(rewardValues.rewards["gameWon"], "red");
+            GameManager.blueAgentGroup.EndGroupEpisode();
+            GameManager.redAgentGroup.EndGroupEpisode();
         }
     }
 
@@ -87,12 +89,5 @@ public class FlagCapturingScript : MonoBehaviour
                 }
             }
         }
-    }
-    public StartGameScript getSGS()
-    {
-        Scene sceneMain = SceneManager.GetActiveScene();
-        GameObject interfaceCamera = sceneMain.GetRootGameObjects()[7].gameObject;
-        StartGameScript startGameScript = interfaceCamera.GetComponentInChildren<StartGameScript>();
-        return startGameScript;
     }
 }

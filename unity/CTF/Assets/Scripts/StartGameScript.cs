@@ -5,10 +5,6 @@ using Unity.MLAgents;
 
 public class StartGameScript : MonoBehaviour
 {
-    public SimpleMultiAgentGroup redAgentGroup;
-    public SimpleMultiAgentGroup blueAgentGroup;
-    private BlueBaseScript blueBaseScript;
-    private RedBaseScript redBaseScript;
     // Start is called before the first frame update
     void Start()
     {
@@ -32,6 +28,9 @@ public class StartGameScript : MonoBehaviour
 
         blueBaseScript.OnGameStart();
         redBaseScript.OnGameStart();
+
+        GameManager.redAgentGroup = redBaseScript.m_AgentGroup;
+        GameManager.blueAgentGroup = blueBaseScript.m_AgentGroup; 
 
         AiTrainer.Spawn();
     }

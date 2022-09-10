@@ -163,7 +163,6 @@ public class AgentMovementWSAD : Agent
         AddReward(reward);
     }
 
-
     public void Kill()
     {
         var rewardValues = gameObject.GetComponent<RewardValuesScript>();
@@ -207,28 +206,31 @@ public class AgentMovementWSAD : Agent
             if (!isRed)
             {
                 Debug.Log("Team red wins!");
-                getSGS().AddRewardTeam(rewardValues.rewards["gameLost"], "blue");
-                getSGS().AddRewardTeam(rewardValues.rewards["gameWon"], "red");
-                getSGS().EndEpisodeForAllAgents();
+                GameManager.AddRewardTeam(rewardValues.rewards["gameLost"], "blue");
+                GameManager.AddRewardTeam(rewardValues.rewards["gameWon"], "red");
+                GameManager.blueAgentGroup.EndGroupEpisode();
+                GameManager.redAgentGroup.EndGroupEpisode();
+
             }
             else
             {
                 Debug.Log("Team blue wins!");
-                getSGS().AddRewardTeam(rewardValues.rewards["gameLost"], "red");
-                getSGS().AddRewardTeam(rewardValues.rewards["gameWon"], "blue");
-                getSGS().EndEpisodeForAllAgents();
+                GameManager.AddRewardTeam(rewardValues.rewards["gameLost"], "red");
+                GameManager.AddRewardTeam(rewardValues.rewards["gameWon"], "blue");
+                GameManager.blueAgentGroup.EndGroupEpisode();
+                GameManager.redAgentGroup.EndGroupEpisode();
             }
         }
     }
 
-    public override void OnEpisodeBegin()
+    /*public override void OnEpisodeBegin()
     {
         Debug.Log("EPISODE BEGIN");
         //getSGS().StartGame();
        
     }
 
-    /*private void GetTeams()
+    private void GetTeams()
     {
         Transform agents = gameObject.transform.parent.transform.parent;
         Transform redAgents = agents.GetChild(0);

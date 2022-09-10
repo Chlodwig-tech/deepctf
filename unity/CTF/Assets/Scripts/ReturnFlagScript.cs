@@ -37,15 +37,15 @@ public class ReturnFlagScript : MonoBehaviour
     {
         if (color == "blue")
         {
-            getSGS().AddRewardTeam(rewardValues.rewards["gameLost"], "red");
-            getSGS().AddRewardTeam(rewardValues.rewards["gameWon"], "blue");
-            getSGS().EndEpisodeForAllAgents();
+            GameManager.AddRewardTeam(rewardValues.rewards["gameLost"], "red");
+            GameManager.AddRewardTeam(rewardValues.rewards["gameWon"], "blue");
+            agent.GetComponent<AgentMovementWSAD>().EndEpisode();
         }
         else
         {
-            getSGS().AddRewardTeam(rewardValues.rewards["gameLost"], "blue");
-            getSGS().AddRewardTeam(rewardValues.rewards["gameWon"], "red");
-            getSGS().EndEpisodeForAllAgents();
+            GameManager.AddRewardTeam(rewardValues.rewards["gameLost"], "blue");
+            GameManager.AddRewardTeam(rewardValues.rewards["gameWon"], "red");
+            agent.GetComponent<AgentMovementWSAD>().EndEpisode();
         }
     }
     public void returnFlagFromBase(GameObject collidingAgent, GameObject EnemyFlagInBase)
@@ -72,12 +72,5 @@ public class ReturnFlagScript : MonoBehaviour
         {
             passTheFlag(agentFlag, OwnFlagInOtherBase);
         }
-    }
-    public StartGameScript getSGS()
-    {
-        Scene sceneMain = SceneManager.GetActiveScene();
-        GameObject interfaceCamera = sceneMain.GetRootGameObjects()[7].gameObject;
-        StartGameScript startGameScript = interfaceCamera.GetComponentInChildren<StartGameScript>();
-        return startGameScript;
     }
 }
