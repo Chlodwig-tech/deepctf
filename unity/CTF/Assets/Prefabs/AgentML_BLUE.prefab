@@ -562,6 +562,7 @@ MonoBehaviour:
   rotateSpeed: 180
   forwardSpeed: 600
   backSpeed: 450
+  AiTrainerMode: 0
   agents: []
 --- !u!54 &5985009202052222548
 Rigidbody:
@@ -630,7 +631,7 @@ MonoBehaviour:
     hasUpgradedBrainParametersWithActionSpec: 1
   m_Model: {fileID: 5022602860645237092, guid: ccf0257ff139c564e85dd863edc6501b, type: 3}
   m_InferenceDevice: 0
-  m_BehaviorType: 0
+  m_BehaviorType: 1
   m_BehaviorName: My Behavior
   TeamId: 0
   m_UseChildSensors: 1

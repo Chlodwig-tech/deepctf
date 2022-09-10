@@ -14,14 +14,15 @@ public class AgentMovementWSAD : Agent
     public float backSpeed = 450f;
     private float speedModifier = 1f;
     public GameObject[] agents;
-    private List<GameObject> teamBlue = new List<GameObject>{};
-    private List<GameObject> teamRed = new List<GameObject>{};
 
     private int numberOfRays = 10;
 
     void Start()
     {
-        //GetTeams();
+        // GetTeams();
+        // AiTrainer.Spawn();
+        // Potrzebujemy to wywołać nie w agentach, ale potrzebujemy wtedy gdzie indziej listy agentów, np. można je zrobić i trzymać w jakimś GameManager, stworzymy wtedy listy po blueBaseScript.OnGameStart(); i redBaseScript.OnGameStart();
+        // w OnGameStart
     }
 
     public override void OnActionReceived(ActionBuffers actionBuffers)
@@ -114,17 +115,21 @@ public class AgentMovementWSAD : Agent
     //public override void Heuristic(in ActionBuffers actionsOut)
     public void FixedUpdate()
     {
-        bool W = Input.GetKey(KeyCode.W);
-        bool S = Input.GetKey(KeyCode.S);
-        bool A = Input.GetKey(KeyCode.A);
-        bool D = Input.GetKey(KeyCode.D);
+        bool W, S, A, D;
+        if (AiTrainer.GetAITrainerMode())
+            (W, S, A, D) = AiTrainer.Run();
+        else
+        {
+            W = Input.GetKey(KeyCode.W);
+            S = Input.GetKey(KeyCode.S);
+            A = Input.GetKey(KeyCode.A);
+            D = Input.GetKey(KeyCode.D);
+        }
+        Walking(W, S, A, D);
+    }
 
-        /*
-        bool W = true ? Random.Range(0, 10) > 1 : false;
-        bool S = true ? Random.Range(0, 2) == 1 : false;
-        bool A = true ? Random.Range(0, 10) > 2 : false;
-        bool D = true ? Random.Range(0, 20) > 1 : false;*/
-
+    public void Walking(bool W, bool S, bool A, bool D)
+    {
         // Faster forward than back
         Rigidbody rb = GetComponent<Rigidbody>();
         if (W)
@@ -142,13 +147,11 @@ public class AgentMovementWSAD : Agent
 
 
         speedModifier = 1f;
-
         //dla widzenia promieni
        // raysPerception();
         //BiomEyesScript bes = (BiomEyesScript)GetComponentInChildren(typeof(BiomEyesScript));
         //bes.GetBiomSensors();
     }
-
 
     public void ChangeSpeedModifier(float newModified)
     {
@@ -167,12 +170,21 @@ public class AgentMovementWSAD : Agent
         rewardValues.getRewardValues();
         AddRewardAgent(rewardValues.rewards["agentDead"]);
         gameObject.SetActive(false);
-        
+
+        if (gameObject.GetComponent<AgentComponentsScript>().color == "red")
+        {
+            GameManager.RemoveRedAgent(gameObject);
+        }
+        else
+        {
+            GameManager.RemoveBlueAgent(gameObject);
+        }
         CheckIfLost();
     }
 
     private void CheckIfLost()
     {
+        /*
         bool aliveAgents = false;
         Transform parent = gameObject.transform.parent;
 
@@ -184,12 +196,15 @@ public class AgentMovementWSAD : Agent
                 aliveAgents = true;
             }
         }
-
+        */
+        bool isRed = gameObject.GetComponent<AgentComponentsScript>().color == "red";
+        bool aliveAgents = isRed ? GameManager.IsAnyRed() : GameManager.IsAnyBlue();
+        // if (!aliveAgents) // if all agents from team died
         if (!aliveAgents) // if all agents from team died
         {
             var rewardValues = gameObject.GetComponent<RewardValuesScript>();
             rewardValues.getRewardValues();
-            if (gameObject.GetComponent<AgentComponentsScript>().color == "blue")
+            if (!isRed)
             {
                 Debug.Log("Team red wins!");
                 getSGS().AddRewardTeam(rewardValues.rewards["gameLost"], "blue");
@@ -213,23 +228,16 @@ public class AgentMovementWSAD : Agent
        
     }
 
-
-    //private void GetTeams()
-    //{
-    //    Transform agents = gameObject.transform.parent.transform.parent;
-    //    Transform redAgents = agents.GetChild(0);
-    //    Transform blueAgents = agents.GetChild(1);
-    //    for (int i = 0; i < gameObject.transform.parent.childCount; i++)
-    //    {
-    //        teamRed.Add(redAgents.GetChild(i).gameObject);
-    //        teamBlue.Add(blueAgents.GetChild(i).gameObject);
-    //    }
-    //}
-    public StartGameScript getSGS()
+    /*private void GetTeams()
     {
-        Scene sceneMain = SceneManager.GetActiveScene();
-        GameObject interfaceCamera = sceneMain.GetRootGameObjects()[7].gameObject;
-        StartGameScript startGameScript = interfaceCamera.GetComponentInChildren<StartGameScript>();
-        return startGameScript;
-    }
+        Transform agents = gameObject.transform.parent.transform.parent;
+        Transform redAgents = agents.GetChild(0);
+        Transform blueAgents = agents.GetChild(1);
+        for (int i = 0; i < gameObject.transform.parent.childCount; i++)
+        {
+            teamRed.Add(redAgents.GetChild(i).gameObject);
+            teamBlue.Add(blueAgents.GetChild(i).gameObject);
+
+        }
+    }*/
 }

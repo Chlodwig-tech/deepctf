@@ -33,26 +33,6 @@ public class StartGameScript : MonoBehaviour
         blueBaseScript.OnGameStart();
         redBaseScript.OnGameStart();
 
-        redAgentGroup = redBaseScript.m_AgentGroup;
-        blueAgentGroup = blueBaseScript.m_AgentGroup;
-    }
-    public void EndEpisodeForAllAgents()
-    {
-        Debug.Log("ENDEPISODE!");
-        redBaseScript.m_AgentGroup.EndGroupEpisode();
-        blueBaseScript.m_AgentGroup.EndGroupEpisode();
-
-        
-    }
-    public void AddRewardTeam(float reward, string color)
-    {
-        if (color == "blue")
-        {
-            blueBaseScript.m_AgentGroup.AddGroupReward(reward);
-        }
-        else
-        {
-            redBaseScript.m_AgentGroup.AddGroupReward(reward);
-        }
+        AiTrainer.Spawn();
     }
 }

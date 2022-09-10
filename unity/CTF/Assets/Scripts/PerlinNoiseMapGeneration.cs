@@ -161,6 +161,8 @@ public class PerlinNoiseMapGeneration : MonoBehaviour
         Stopwatch sw = new Stopwatch();
         sw.Start();
 
+        AiTrainer.SetPercentages(ref lakesPercentage, ref accelerateSurfacePercentage, ref desertsPercentage);
+
         GenerateMap();
         FindDomains();
         FindNoLakeDomains();
