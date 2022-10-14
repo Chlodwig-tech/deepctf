@@ -1,0 +1,1954 @@
+Mono path[0] = 'C:/Users/krzys/deepCTF/cmd_build/CTF_Data/Managed'
+Mono config path = 'C:/Users/krzys/deepCTF/cmd_build/MonoBleedingEdge/etc'
+Found 4 interfaces on host : 0) 25.42.17.157 1) 192.168.56.1 2) 26.250.140.1 3) 192.168.0.7
+Multi-casting "[IP] 25.42.17.157 [Port] 55046 [Flags] 2 [Guid] 3481416234 [EditorId] 4073861618 [Version] 1048832 [Id] WindowsPlayer(2,DESKTOP-T96LR46) [Debug] 0 [PackageName] WindowsPlayer [ProjectName] CTF" to [225.0.0.222:54997]...
+Initialize engine version: 2021.3.1f1 (3b70a0754835)
+[Subsystems] Discovering subsystems at path C:/Users/krzys/deepCTF/cmd_build/CTF_Data/UnitySubsystems
+GfxDevice: creating device client; threaded=1; jobified=1
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce MX150 (ID=0x1d10)
+    Vendor:   NVIDIA
+    VRAM:     1983 MB
+    Driver:   27.21.14.5749
+Begin MonoManager ReloadAssembly
+- Completed reload, in  0.273 seconds
+<RI> Initializing input.
+<RI> Input initialized.
+<RI> Initialized touch support.
+UnloadTime: 3.180800 ms
+Unloading 5 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 13.609500 ms
+Unloading 6 unused Assets / (0.9 KB). Loaded Objects now: 2138.
+Memory consumption went from 39.2 MB to 39.2 MB.
+Total: 2.820200 ms (FindLiveObjects: 0.184300 ms CreateObjectMapping: 0.108900 ms MarkObjects: 2.455100 ms  DeleteObjects: 0.070600 ms)
+
+SG: 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+StartGameScript:StartGame () (at C:/Users/krzys/deepCTF/unity/CTF/Assets/Scripts/StartGameScript.cs:23)
+EnvController:Start () (at C:/Users/krzys/deepCTF/unity/CTF/Assets/Scripts/EnvController.cs:70)
+
+(Filename: C:/Users/krzys/deepCTF/unity/CTF/Assets/Scripts/StartGameScript.cs Line: 23)
+
+SG: blue on game start
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+StartGameScript:StartGame () (at C:/Users/krzys/deepCTF/unity/CTF/Assets/Scripts/StartGameScript.cs:29)
+EnvController:Start () (at C:/Users/krzys/deepCTF/unity/CTF/Assets/Scripts/EnvController.cs:70)
+
+(Filename: C:/Users/krzys/deepCTF/unity/CTF/Assets/Scripts/StartGameScript.cs Line: 29)
+
+OGS: spawning egants
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+BaseBaseScript:OnGameStart () (at C:/Users/krzys/deepCTF/unity/CTF/Assets/Scripts/BaseScripts/BaseBaseScript.cs:31)
+StartGameScript:StartGame () (at C:/Users/krzys/deepCTF/unity/CTF/Assets/Scripts/StartGameScript.cs:30)
+EnvController:Start () (at C:/Users/krzys/deepCTF/unity/CTF/Assets/Scripts/EnvController.cs:70)
+
+(Filename: C:/Users/krzys/deepCTF/unity/CTF/Assets/Scripts/BaseScripts/BaseBaseScript.cs Line: 31)
+
+OGS: trying spawn agent no 0
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+BaseBaseScript:OnGameStart () (at C:/Users/krzys/deepCTF/unity/CTF/Assets/Scripts/BaseScripts/BaseBaseScript.cs:35)
+StartGameScript:StartGame () (at C:/Users/krzys/deepCTF/unity/CTF/Assets/Scripts/StartGameScript.cs:30)
+EnvController:Start () (at C:/Users/krzys/deepCTF/unity/CTF/Assets/Scripts/EnvController.cs:70)
+
+(Filename: C:/Users/krzys/deepCTF/unity/CTF/Assets/Scripts/BaseScripts/BaseBaseScript.cs Line: 35)
+
+CICS: 8499
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+BaseBaseScript:CheckIfCanSpawnAt (int) (at C:/Users/krzys/deepCTF/unity/CTF/Assets/Scripts/BaseScripts/BaseBaseScript.cs:78)
+BaseBaseScript:OnGameStart () (at C:/Users/krzys/deepCTF/unity/CTF/Assets/Scripts/BaseScripts/BaseBaseScript.cs:36)
+StartGameScript:StartGame () (at C:/Users/krzys/deepCTF/unity/CTF/Assets/Scripts/StartGameScript.cs:30)
+EnvController:Start () (at C:/Users/krzys/deepCTF/unity/CTF/Assets/Scripts/EnvController.cs:70)
+
+(Filename: C:/Users/krzys/deepCTF/unity/CTF/Assets/Scripts/BaseScripts/BaseBaseScript.cs Line: 78)
+
+OGS: trying spawn agent no 1
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+BaseBaseScript:OnGameStart () (at C:/Users/krzys/deepCTF/unity/CTF/Assets/Scripts/BaseScripts/BaseBaseScript.cs:35)
+StartGameScript:StartGame () (at C:/Users/krzys/deepCTF/unity/CTF/Assets/Scripts/StartGameScript.cs:30)
+EnvController:Start () (at C:/Users/krzys/deepCTF/unity/CTF/Assets/Scripts/EnvController.cs:70)
+
+(Filename: C:/Users/krzys/deepCTF/unity/CTF/Assets/Scripts/BaseScripts/BaseBaseScript.cs Line: 35)
+
+CICS: 8499
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+BaseBaseScript:CheckIfCanSpawnAt (int) (at C:/Users/krzys/deepCTF/unity/CTF/Assets/Scripts/BaseScripts/BaseBaseScript.cs:78)
+BaseBaseScript:OnGameStart () (at C:/Users/krzys/deepCTF/unity/CTF/Assets/Scripts/BaseScripts/BaseBaseScript.cs:36)
+StartGameScript:StartGame () (at C:/Users/krzys/deepCTF/unity/CTF/Assets/Scripts/StartGameScript.cs:30)
+EnvController:Start () (at C:/Users/krzys/deepCTF/unity/CTF/Assets/Scripts/EnvController.cs:70)
+
+(Filename: C:/Users/krzys/deepCTF/unity/CTF/Assets/Scripts/BaseScripts/BaseBaseScript.cs Line: 78)
+
+CICS: 8499 AgentML_BLUE(Clone) (UnityEngine.Transform) at (158.00, 2.50, 198.00)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+BaseBaseScript:CheckIfCanSpawnAt (int) (at C:/Users/krzys/deepCTF/unity/CTF/Assets/Scripts/BaseScripts/BaseBaseScript.cs:81)
+BaseBaseScript:OnGameStart () (at C:/Users/krzys/deepCTF/unity/CTF/Assets/Scripts/BaseScripts/BaseBaseScript.cs:36)
+StartGameScript:StartGame () (at C:/Users/krzys/deepCTF/unity/CTF/Assets/Scripts/StartGameScript.cs:30)
+EnvController:Start () (at C:/Users/krzys/deepCTF/unity/CTF/Assets/Scripts/EnvController.cs:70)
+
+(Filename: C:/Users/krzys/deepCTF/unity/CTF/Assets/Scripts/BaseScripts/BaseBaseScript.cs Line: 81)
+
+CICS: 8497
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+BaseBaseScript:CheckIfCanSpawnAt (int) (at C:/Users/krzys/deepCTF/unity/CTF/Assets/Scripts/BaseScripts/BaseBaseScript.cs:78)
+BaseBaseScript:OnGameStart () (at C:/Users/krzys/deepCTF/unity/CTF/Assets/Scripts/BaseScripts/BaseBaseScript.cs:40)
+StartGameScript:StartGame () (at C:/Users/krzys/deepCTF/unity/CTF/Assets/Scripts/StartGameScript.cs:30)
+EnvController:Start () (at C:/Users/krzys/deepCTF/unity/CTF/Assets/Scripts/EnvController.cs:70)
+
+(Filename: C:/Users/krzys/deepCTF/unity/CTF/Assets/Scripts/BaseScripts/BaseBaseScript.cs Line: 78)
+
+CICS: 8497 AgentML_BLUE(Clone) (UnityEngine.Transform) at (158.00, 2.50, 198.00)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+BaseBaseScript:CheckIfCanSpawnAt (int) (at C:/Users/krzys/deepCTF/unity/CTF/Assets/Scripts/BaseScripts/BaseBaseScript.cs:81)
+BaseBaseScript:OnGameStart () (at C:/Users/krzys/deepCTF/unity/CTF/Assets/Scripts/BaseScripts/BaseBaseScript.cs:40)
+StartGameScript:StartGame () (at C:/Users/krzys/deepCTF/unity/CTF/Assets/Scripts/StartGameScript.cs:30)
+EnvController:Start () (at C:/Users/krzys/deepCTF/unity/CTF/Assets/Scripts/EnvController.cs:70)
+
+(Filename: C:/Users/krzys/deepCTF/unity/CTF/Assets/Scripts/BaseScripts/BaseBaseScript.cs Line: 81)
+
+OGS: trying spawn agent no 2
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+BaseBaseScript:OnGameStart () (at C:/Users/krzys/deepCTF/unity/CTF/Assets/Scripts/BaseScripts/BaseBaseScript.cs:35)
+StartGameScript:StartGame () (at C:/Users/krzys/deepCTF/unity/CTF/Assets/Scripts/StartGameScript.cs:30)
+EnvController:Start () (at C:/Users/krzys/deepCTF/unity/CTF/Assets/Scripts/EnvController.cs:70)
+
+(Filename: C:/Users/krzys/deepCTF/unity/CTF/Assets/Scripts/BaseScripts/BaseBaseScript.cs Line: 35)
+
+CICS: 8499
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+BaseBaseScript:CheckIfCanSpawnAt (int) (at C:/Users/krzys/deepCTF/unity/CTF/Assets/Scripts/BaseScripts/BaseBaseScript.cs:78)
+BaseBaseScript:OnGameStart () (at C:/Users/krzys/deepCTF/unity/CTF/Assets/Scripts/BaseScripts/BaseBaseScript.cs:36)
+StartGameScript:StartGame () (at C:/Users/krzys/deepCTF/unity/CTF/Assets/Scripts/StartGameScript.cs:30)
+EnvController:Start () (at C:/Users/krzys/deepCTF/unity/CTF/Assets/Scripts/EnvController.cs:70)
+
+(Filename: C:/Users/krzys/deepCTF/unity/CTF/Assets/Scripts/BaseScripts/BaseBaseScript.cs Line: 78)
+
+CICS: 8499 AgentML_BLUE(Clone) (UnityEngine.Transform) at (158.00, 2.50, 198.00)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+BaseBaseScript:CheckIfCanSpawnAt (int) (at C:/Users/krzys/deepCTF/unity/CTF/Assets/Scripts/BaseScripts/BaseBaseScript.cs:81)
+BaseBaseScript:OnGameStart () (at C:/Users/krzys/deepCTF/unity/CTF/Assets/Scripts/BaseScripts/BaseBaseScript.cs:36)
+StartGameScript:StartGame () (at C:/Users/krzys/deepCTF/unity/CTF/Assets/Scripts/StartGameScript.cs:30)
+EnvController:Start () (at C:/Users/krzys/deepCTF/unity/CTF/Assets/Scripts/EnvController.cs:70)
+
+(Filename: C:/Users/krzys/deepCTF/unity/CTF/Assets/Scripts/BaseScripts/BaseBaseScript.cs Line: 81)
+
+CICS: 8497
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+BaseBaseScript:CheckIfCanSpawnAt (int) (at C:/Users/krzys/deepCTF/unity/CTF/Assets/Scripts/BaseScripts/BaseBaseScript.cs:78)
+BaseBaseScript:OnGameStart () (at C:/Users/krzys/deepCTF/unity/CTF/Assets/Scripts/BaseScripts/BaseBaseScript.cs:40)
+StartGameScript:StartGame () (at C:/Users/krzys/deepCTF/unity/CTF/Assets/Scripts/StartGameScript.cs:30)
+EnvController:Start () (at C:/Users/krzys/deepCTF/unity/CTF/Assets/Scripts/EnvController.cs:70)
+
+(Filename: C:/Users/krzys/deepCTF/unity/CTF/Assets/Scripts/BaseScripts/BaseBaseScript.cs Line: 78)
+
+CICS: 8497 AgentML_BLUE(Clone) (UnityEngine.Transform) at (158.00, 2.50, 198.00)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+BaseBaseScript:CheckIfCanSpawnAt (int) (at C:/Users/krzys/deepCTF/unity/CTF/Assets/Scripts/BaseScripts/BaseBaseScript.cs:81)
+BaseBaseScript:OnGameStart () (at C:/Users/krzys/deepCTF/unity/CTF/Assets/Scripts/BaseScripts/BaseBaseScript.cs:40)
+StartGameScript:StartGame () (at C:/Users/krzys/deepCTF/unity/CTF/Assets/Scripts/StartGameScript.cs:30)
+EnvController:Start () (at C:/Users/krzys/deepCTF/unity/CTF/Assets/Scripts/EnvController.cs:70)
+
+(Filename: C:/Users/krzys/deepCTF/unity/CTF/Assets/Scripts/BaseScripts/BaseBaseScript.cs Line: 81)
+
+CICS: 8497 AgentML_BLUE(Clone) (UnityEngine.Transform) at (158.00, 2.50, 190.00)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+BaseBaseScript:CheckIfCanSpawnAt (int) (at C:/Users/krzys/deepCTF/unity/CTF/Assets/Scripts/BaseScripts/BaseBaseScript.cs:81)
+BaseBaseScript:OnGameStart () (at C:/Users/krzys/deepCTF/unity/CTF/Assets/Scripts/BaseScripts/BaseBaseScript.cs:40)
+StartGameScript:StartGame () (at C:/Users/krzys/deepCTF/unity/CTF/Assets/Scripts/StartGameScript.cs:30)
+EnvController:Start () (at C:/Users/krzys/deepCTF/unity/CTF/Assets/Scripts/EnvController.cs:70)
+
+(Filename: C:/Users/krzys/deepCTF/unity/CTF/Assets/Scripts/BaseScripts/BaseBaseScript.cs Line: 81)
+
+CICS: 8598
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+BaseBaseScript:CheckIfCanSpawnAt (int) (at C:/Users/krzys/deepCTF/unity/CTF/Assets/Scripts/BaseScripts/BaseBaseScript.cs:78)
+BaseBaseScript:OnGameStart () (at C:/Users/krzys/deepCTF/unity/CTF/Assets/Scripts/BaseScripts/BaseBaseScript.cs:44)
+StartGameScript:StartGame () (at C:/Users/krzys/deepCTF/unity/CTF/Assets/Scripts/StartGameScript.cs:30)
+EnvController:Start () (at C:/Users/krzys/deepCTF/unity/CTF/Assets/Scripts/EnvController.cs:70)
+
+(Filename: C:/Users/krzys/deepCTF/unity/CTF/Assets/Scripts/BaseScripts/BaseBaseScript.cs Line: 78)
+
+CICS: 8598 AgentML_BLUE(Clone) (UnityEngine.Transform) at (158.00, 2.50, 198.00)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+BaseBaseScript:CheckIfCanSpawnAt (int) (at C:/Users/krzys/deepCTF/unity/CTF/Assets/Scripts/BaseScripts/BaseBaseScript.cs:81)
+BaseBaseScript:OnGameStart () (at C:/Users/krzys/deepCTF/unity/CTF/Assets/Scripts/BaseScripts/BaseBaseScript.cs:44)
+StartGameScript:StartGame () (at C:/Users/krzys/deepCTF/unity/CTF/Assets/Scripts/StartGameScript.cs:30)
+EnvController:Start () (at C:/Users/krzys/deepCTF/unity/CTF/Assets/Scripts/EnvController.cs:70)
+
+(Filename: C:/Users/krzys/deepCTF/unity/CTF/Assets/Scripts/BaseScripts/BaseBaseScript.cs Line: 81)
+
+CICS: 8598 AgentML_BLUE(Clone) (UnityEngine.Transform) at (158.00, 2.50, 190.00)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+BaseBaseScript:CheckIfCanSpawnAt (int) (at C:/Users/krzys/deepCTF/unity/CTF/Assets/Scripts/BaseScripts/BaseBaseScript.cs:81)
+BaseBaseScript:OnGameStart () (at C:/Users/krzys/deepCTF/unity/CTF/Assets/Scripts/BaseScripts/BaseBaseScript.cs:44)
+StartGameScript:StartGame () (at C:/Users/krzys/deepCTF/unity/CTF/Assets/Scripts/StartGameScript.cs:30)
+EnvController:Start () (at C:/Users/krzys/deepCTF/unity/CTF/Assets/Scripts/EnvController.cs:70)
+
+(Filename: C:/Users/krzys/deepCTF/unity/CTF/Assets/Scripts/BaseScripts/BaseBaseScript.cs Line: 81)
+
+OGS: trying spawn agent no 3
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+BaseBaseScript:OnGameStart () (at C:/Users/krzys/deepCTF/unity/CTF/Assets/Scripts/BaseScripts/BaseBaseScript.cs:35)
+StartGameScript:StartGame () (at C:/Users/krzys/deepCTF/unity/CTF/Assets/Scripts/StartGameScript.cs:30)
+EnvController:Start () (at C:/Users/krzys/deepCTF/unity/CTF/Assets/Scripts/EnvController.cs:70)
+
+(Filename: C:/Users/krzys/deepCTF/unity/CTF/Assets/Scripts/BaseScripts/BaseBaseScript.cs Line: 35)
+
+CICS: 8499
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+BaseBaseScript:CheckIfCanSpawnAt (int) (at C:/Users/krzys/deepCTF/unity/CTF/Assets/Scripts/BaseScripts/BaseBaseScript.cs:78)
+BaseBaseScript:OnGameStart () (at C:/Users/krzys/deepCTF/unity/CTF/Assets/Scripts/BaseScripts/BaseBaseScript.cs:36)
+StartGameScript:StartGame () (at C:/Users/krzys/deepCTF/unity/CTF/Assets/Scripts/StartGameScript.cs:30)
+EnvController:Start () (at C:/Users/krzys/deepCTF/unity/CTF/Assets/Scripts/EnvController.cs:70)
+
+(Filename: C:/Users/krzys/deepCTF/unity/CTF/Assets/Scripts/BaseScripts/BaseBaseScript.cs Line: 78)
+
+CICS: 8499 AgentML_BLUE(Clone) (UnityEngine.Transform) at (158.00, 2.50, 198.00)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+BaseBaseScript:CheckIfCanSpawnAt (int) (at C:/Users/krzys/deepCTF/unity/CTF/Assets/Scripts/BaseScripts/BaseBaseScript.cs:81)
+BaseBaseScript:OnGameStart () (at C:/Users/krzys/deepCTF/unity/CTF/Assets/Scripts/BaseScripts/BaseBaseScript.cs:36)
+StartGameScript:StartGame () (at C:/Users/krzys/deepCTF/unity/CTF/Assets/Scripts/StartGameScript.cs:30)
+EnvController:Start () (at C:/Users/krzys/deepCTF/unity/CTF/Assets/Scripts/EnvController.cs:70)
+
+(Filename: C:/Users/krzys/deepCTF/unity/CTF/Assets/Scripts/BaseScripts/BaseBaseScript.cs Line: 81)
+
+CICS: 8497
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+BaseBaseScript:CheckIfCanSpawnAt (int) (at C:/Users/krzys/deepCTF/unity/CTF/Assets/Scripts/BaseScripts/BaseBaseScript.cs:78)
+BaseBaseScript:OnGameStart () (at C:/Users/krzys/deepCTF/unity/CTF/Assets/Scripts/BaseScripts/BaseBaseScript.cs:40)
+StartGameScript:StartGame () (at C:/Users/krzys/deepCTF/unity/CTF/Assets/Scripts/StartGameScript.cs:30)
+EnvController:Start () (at C:/Users/krzys/deepCTF/unity/CTF/Assets/Scripts/EnvController.cs:70)
+
+(Filename: C:/Users/krzys/deepCTF/unity/CTF/Assets/Scripts/BaseScripts/BaseBaseScript.cs Line: 78)
+
+CICS: 8497 AgentML_BLUE(Clone) (UnityEngine.Transform) at (158.00, 2.50, 198.00)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+BaseBaseScript:CheckIfCanSpawnAt (int) (at C:/Users/krzys/deepCTF/unity/CTF/Assets/Scripts/BaseScripts/BaseBaseScript.cs:81)
+BaseBaseScript:OnGameStart () (at C:/Users/krzys/deepCTF/unity/CTF/Assets/Scripts/BaseScripts/BaseBaseScript.cs:40)
+StartGameScript:StartGame () (at C:/Users/krzys/deepCTF/unity/CTF/Assets/Scripts/StartGameScript.cs:30)
+EnvController:Start () (at C:/Users/krzys/deepCTF/unity/CTF/Assets/Scripts/EnvController.cs:70)
+
+(Filename: C:/Users/krzys/deepCTF/unity/CTF/Assets/Scripts/BaseScripts/BaseBaseScript.cs Line: 81)
+
+CICS: 8497 AgentML_BLUE(Clone) (UnityEngine.Transform) at (158.00, 2.50, 190.00)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+BaseBaseScript:CheckIfCanSpawnAt (int) (at C:/Users/krzys/deepCTF/unity/CTF/Assets/Scripts/BaseScripts/BaseBaseScript.cs:81)
+BaseBaseScript:OnGameStart () (at C:/Users/krzys/deepCTF/unity/CTF/Assets/Scripts/BaseScripts/BaseBaseScript.cs:40)
+StartGameScript:StartGame () (at C:/Users/krzys/deepCTF/unity/CTF/Assets/Scripts/StartGameScript.cs:30)
+EnvController:Start () (at C:/Users/krzys/deepCTF/unity/CTF/Assets/Scripts/EnvController.cs:70)
+
+(Filename: C:/Users/krzys/deepCTF/unity/CTF/Assets/Scripts/BaseScripts/BaseBaseScript.cs Line: 81)
+
+CICS: 8598
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+BaseBaseScript:CheckIfCanSpawnAt (int) (at C:/Users/krzys/deepCTF/unity/CTF/Assets/Scripts/BaseScripts/BaseBaseScript.cs:78)
+BaseBaseScript:OnGameStart () (at C:/Users/krzys/deepCTF/unity/CTF/Assets/Scripts/BaseScripts/BaseBaseScript.cs:44)
+StartGameScript:StartGame () (at C:/Users/krzys/deepCTF/unity/CTF/Assets/Scripts/StartGameScript.cs:30)
+EnvController:Start () (at C:/Users/krzys/deepCTF/unity/CTF/Assets/Scripts/EnvController.cs:70)
+
+(Filename: C:/Users/krzys/deepCTF/unity/CTF/Assets/Scripts/BaseScripts/BaseBaseScript.cs Line: 78)
+
+CICS: 8598 AgentML_BLUE(Clone) (UnityEngine.Transform) at (158.00, 2.50, 198.00)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+BaseBaseScript:CheckIfCanSpawnAt (int) (at C:/Users/krzys/deepCTF/unity/CTF/Assets/Scripts/BaseScripts/BaseBaseScript.cs:81)
+BaseBaseScript:OnGameStart () (at C:/Users/krzys/deepCTF/unity/CTF/Assets/Scripts/BaseScripts/BaseBaseScript.cs:44)
+StartGameScript:StartGame () (at C:/Users/krzys/deepCTF/unity/CTF/Assets/Scripts/StartGameScript.cs:30)
+EnvController:Start () (at C:/Users/krzys/deepCTF/unity/CTF/Assets/Scripts/EnvController.cs:70)
+
+(Filename: C:/Users/krzys/deepCTF/unity/CTF/Assets/Scripts/BaseScripts/BaseBaseScript.cs Line: 81)
+
+CICS: 8598 AgentML_BLUE(Clone) (UnityEngine.Transform) at (158.00, 2.50, 190.00)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+BaseBaseScript:CheckIfCanSpawnAt (int) (at C:/Users/krzys/deepCTF/unity/CTF/Assets/Scripts/BaseScripts/BaseBaseScript.cs:81)
+BaseBaseScript:OnGameStart () (at C:/Users/krzys/deepCTF/unity/CTF/Assets/Scripts/BaseScripts/BaseBaseScript.cs:44)
+StartGameScript:StartGame () (at C:/Users/krzys/deepCTF/unity/CTF/Assets/Scripts/StartGameScript.cs:30)
+EnvController:Start () (at C:/Users/krzys/deepCTF/unity/CTF/Assets/Scripts/EnvController.cs:70)
+
+(Filename: C:/Users/krzys/deepCTF/unity/CTF/Assets/Scripts/BaseScripts/BaseBaseScript.cs Line: 81)
+
+CICS: 8598 AgentML_BLUE(Clone) (UnityEngine.Transform) at (162.00, 2.50, 194.00)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+BaseBaseScript:CheckIfCanSpawnAt (int) (at C:/Users/krzys/deepCTF/unity/CTF/Assets/Scripts/BaseScripts/BaseBaseScript.cs:81)
+BaseBaseScript:OnGameStart () (at C:/Users/krzys/deepCTF/unity/CTF/Assets/Scripts/BaseScripts/BaseBaseScript.cs:44)
+StartGameScript:StartGame () (at C:/Users/krzys/deepCTF/unity/CTF/Assets/Scripts/StartGameScript.cs:30)
+EnvController:Start () (at C:/Users/krzys/deepCTF/unity/CTF/Assets/Scripts/EnvController.cs:70)
+
+(Filename: C:/Users/krzys/deepCTF/unity/CTF/Assets/Scripts/BaseScripts/BaseBaseScript.cs Line: 81)
+
+CICS: 8398
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+BaseBaseScript:CheckIfCanSpawnAt (int) (at C:/Users/krzys/deepCTF/unity/CTF/Assets/Scripts/BaseScripts/BaseBaseScript.cs:78)
+BaseBaseScript:OnGameStart () (at C:/Users/krzys/deepCTF/unity/CTF/Assets/Scripts/BaseScripts/BaseBaseScript.cs:48)
+StartGameScript:StartGame () (at C:/Users/krzys/deepCTF/unity/CTF/Assets/Scripts/StartGameScript.cs:30)
+EnvController:Start () (at C:/Users/krzys/deepCTF/unity/CTF/Assets/Scripts/EnvController.cs:70)
+
+(Filename: C:/Users/krzys/deepCTF/unity/CTF/Assets/Scripts/BaseScripts/BaseBaseScript.cs Line: 78)
+
+CICS: 8398 AgentML_BLUE(Clone) (UnityEngine.Transform) at (158.00, 2.50, 198.00)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+BaseBaseScript:CheckIfCanSpawnAt (int) (at C:/Users/krzys/deepCTF/unity/CTF/Assets/Scripts/BaseScripts/BaseBaseScript.cs:81)
+BaseBaseScript:OnGameStart () (at C:/Users/krzys/deepCTF/unity/CTF/Assets/Scripts/BaseScripts/BaseBaseScript.cs:48)
+StartGameScript:StartGame () (at C:/Users/krzys/deepCTF/unity/CTF/Assets/Scripts/StartGameScript.cs:30)
+EnvController:Start () (at C:/Users/krzys/deepCTF/unity/CTF/Assets/Scripts/EnvController.cs:70)
+
+(Filename: C:/Users/krzys/deepCTF/unity/CTF/Assets/Scripts/BaseScripts/BaseBaseScript.cs Line: 81)
+
+CICS: 8398 AgentML_BLUE(Clone) (UnityEngine.Transform) at (158.00, 2.50, 190.00)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+BaseBaseScript:CheckIfCanSpawnAt (int) (at C:/Users/krzys/deepCTF/unity/CTF/Assets/Scripts/BaseScripts/BaseBaseScript.cs:81)
+BaseBaseScript:OnGameStart () (at C:/Users/krzys/deepCTF/unity/CTF/Assets/Scripts/BaseScripts/BaseBaseScript.cs:48)
+StartGameScript:StartGame () (at C:/Users/krzys/deepCTF/unity/CTF/Assets/Scripts/StartGameScript.cs:30)
+EnvController:Start () (at C:/Users/krzys/deepCTF/unity/CTF/Assets/Scripts/EnvController.cs:70)
+
+(Filename: C:/Users/krzys/deepCTF/unity/CTF/Assets/Scripts/BaseScripts/BaseBaseScript.cs Line: 81)
+
+CICS: 8398 AgentML_BLUE(Clone) (UnityEngine.Transform) at (162.00, 2.50, 194.00)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+BaseBaseScript:CheckIfCanSpawnAt (int) (at C:/Users/krzys/deepCTF/unity/CTF/Assets/Scripts/BaseScripts/BaseBaseScript.cs:81)
+BaseBaseScript:OnGameStart () (at C:/Users/krzys/deepCTF/unity/CTF/Assets/Scripts/BaseScripts/BaseBaseScript.cs:48)
+StartGameScript:StartGame () (at C:/Users/krzys/deepCTF/unity/CTF/Assets/Scripts/StartGameScript.cs:30)
+EnvController:Start () (at C:/Users/krzys/deepCTF/unity/CTF/Assets/Scripts/EnvController.cs:70)
+
+(Filename: C:/Users/krzys/deepCTF/unity/CTF/Assets/Scripts/BaseScripts/BaseBaseScript.cs Line: 81)
+
+SG: red on game start
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+StartGameScript:StartGame () (at C:/Users/krzys/deepCTF/unity/CTF/Assets/Scripts/StartGameScript.cs:31)
+EnvController:Start () (at C:/Users/krzys/deepCTF/unity/CTF/Assets/Scripts/EnvController.cs:70)
+
+(Filename: C:/Users/krzys/deepCTF/unity/CTF/Assets/Scripts/StartGameScript.cs Line: 31)
+
+OGS: spawning egants
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+BaseBaseScript:OnGameStart () (at C:/Users/krzys/deepCTF/unity/CTF/Assets/Scripts/BaseScripts/BaseBaseScript.cs:31)
+StartGameScript:StartGame () (at C:/Users/krzys/deepCTF/unity/CTF/Assets/Scripts/StartGameScript.cs:32)
+EnvController:Start () (at C:/Users/krzys/deepCTF/unity/CTF/Assets/Scripts/EnvController.cs:70)
+
+(Filename: C:/Users/krzys/deepCTF/unity/CTF/Assets/Scripts/BaseScripts/BaseBaseScript.cs Line: 31)
+
+OGS: trying spawn agent no 0
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+BaseBaseScript:OnGameStart () (at C:/Users/krzys/deepCTF/unity/CTF/Assets/Scripts/BaseScripts/BaseBaseScript.cs:35)
+StartGameScript:StartGame () (at C:/Users/krzys/deepCTF/unity/CTF/Assets/Scripts/StartGameScript.cs:32)
+EnvController:Start () (at C:/Users/krzys/deepCTF/unity/CTF/Assets/Scripts/EnvController.cs:70)
+
+(Filename: C:/Users/krzys/deepCTF/unity/CTF/Assets/Scripts/BaseScripts/BaseBaseScript.cs Line: 35)
+
+CICS: 8270
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+BaseBaseScript:CheckIfCanSpawnAt (int) (at C:/Users/krzys/deepCTF/unity/CTF/Assets/Scripts/BaseScripts/BaseBaseScript.cs:78)
+BaseBaseScript:OnGameStart () (at C:/Users/krzys/deepCTF/unity/CTF/Assets/Scripts/BaseScripts/BaseBaseScript.cs:36)
+StartGameScript:StartGame () (at C:/Users/krzys/deepCTF/unity/CTF/Assets/Scripts/StartGameScript.cs:32)
+EnvController:Start () (at C:/Users/krzys/deepCTF/unity/CTF/Assets/Scripts/EnvController.cs:70)
+
+(Filename: C:/Users/krzys/deepCTF/unity/CTF/Assets/Scripts/BaseScripts/BaseBaseScript.cs Line: 78)
+
+OGS: trying spawn agent no 1
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+BaseBaseScript:OnGameStart () (at C:/Users/krzys/deepCTF/unity/CTF/Assets/Scripts/BaseScripts/BaseBaseScript.cs:35)
+StartGameScript:StartGame () (at C:/Users/krzys/deepCTF/unity/CTF/Assets/Scripts/StartGameScript.cs:32)
+EnvController:Start () (at C:/Users/krzys/deepCTF/unity/CTF/Assets/Scripts/EnvController.cs:70)
+
+(Filename: C:/Users/krzys/deepCTF/unity/CTF/Assets/Scripts/BaseScripts/BaseBaseScript.cs Line: 35)
+
+CICS: 8270
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+BaseBaseScript:CheckIfCanSpawnAt (int) (at C:/Users/krzys/deepCTF/unity/CTF/Assets/Scripts/BaseScripts/BaseBaseScript.cs:78)
+BaseBaseScript:OnGameStart () (at C:/Users/krzys/deepCTF/unity/CTF/Assets/Scripts/BaseScripts/BaseBaseScript.cs:36)
+StartGameScript:StartGame () (at C:/Users/krzys/deepCTF/unity/CTF/Assets/Scripts/StartGameScript.cs:32)
+EnvController:Start () (at C:/Users/krzys/deepCTF/unity/CTF/Assets/Scripts/EnvController.cs:70)
+
+(Filename: C:/Users/krzys/deepCTF/unity/CTF/Assets/Scripts/BaseScripts/BaseBaseScript.cs Line: 78)
+
+CICS: 8270 AgentML_RED(Clone) (UnityEngine.Transform) at (150.00, 2.50, 82.00)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+BaseBaseScript:CheckIfCanSpawnAt (int) (at C:/Users/krzys/deepCTF/unity/CTF/Assets/Scripts/BaseScripts/BaseBaseScript.cs:81)
+BaseBaseScript:OnGameStart () (at C:/Users/krzys/deepCTF/unity/CTF/Assets/Scripts/BaseScripts/BaseBaseScript.cs:36)
+StartGameScript:StartGame () (at C:/Users/krzys/deepCTF/unity/CTF/Assets/Scripts/StartGameScript.cs:32)
+EnvController:Start () (at C:/Users/krzys/deepCTF/unity/CTF/Assets/Scripts/EnvController.cs:70)
+
+(Filename: C:/Users/krzys/deepCTF/unity/CTF/Assets/Scripts/BaseScripts/BaseBaseScript.cs Line: 81)
+
+CICS: 8268
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+BaseBaseScript:CheckIfCanSpawnAt (int) (at C:/Users/krzys/deepCTF/unity/CTF/Assets/Scripts/BaseScripts/BaseBaseScript.cs:78)
+BaseBaseScript:OnGameStart () (at C:/Users/krzys/deepCTF/unity/CTF/Assets/Scripts/BaseScripts/BaseBaseScript.cs:40)
+StartGameScript:StartGame () (at C:/Users/krzys/deepCTF/unity/CTF/Assets/Scripts/StartGameScript.cs:32)
+EnvController:Start () (at C:/Users/krzys/deepCTF/unity/CTF/Assets/Scripts/EnvController.cs:70)
+
+(Filename: C:/Users/krzys/deepCTF/unity/CTF/Assets/Scripts/BaseScripts/BaseBaseScript.cs Line: 78)
+
+CICS: 8268 AgentML_RED(Clone) (UnityEngine.Transform) at (150.00, 2.50, 82.00)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+BaseBaseScript:CheckIfCanSpawnAt (int) (at C:/Users/krzys/deepCTF/unity/CTF/Assets/Scripts/BaseScripts/BaseBaseScript.cs:81)
+BaseBaseScript:OnGameStart () (at C:/Users/krzys/deepCTF/unity/CTF/Assets/Scripts/BaseScripts/BaseBaseScript.cs:40)
+StartGameScript:StartGame () (at C:/Users/krzys/deepCTF/unity/CTF/Assets/Scripts/StartGameScript.cs:32)
+EnvController:Start () (at C:/Users/krzys/deepCTF/unity/CTF/Assets/Scripts/EnvController.cs:70)
+
+(Filename: C:/Users/krzys/deepCTF/unity/CTF/Assets/Scripts/BaseScripts/BaseBaseScript.cs Line: 81)
+
+OGS: trying spawn agent no 2
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+BaseBaseScript:OnGameStart () (at C:/Users/krzys/deepCTF/unity/CTF/Assets/Scripts/BaseScripts/BaseBaseScript.cs:35)
+StartGameScript:StartGame () (at C:/Users/krzys/deepCTF/unity/CTF/Assets/Scripts/StartGameScript.cs:32)
+EnvController:Start () (at C:/Users/krzys/deepCTF/unity/CTF/Assets/Scripts/EnvController.cs:70)
+
+(Filename: C:/Users/krzys/deepCTF/unity/CTF/Assets/Scripts/BaseScripts/BaseBaseScript.cs Line: 35)
+
+CICS: 8270
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+BaseBaseScript:CheckIfCanSpawnAt (int) (at C:/Users/krzys/deepCTF/unity/CTF/Assets/Scripts/BaseScripts/BaseBaseScript.cs:78)
+BaseBaseScript:OnGameStart () (at C:/Users/krzys/deepCTF/unity/CTF/Assets/Scripts/BaseScripts/BaseBaseScript.cs:36)
+StartGameScript:StartGame () (at C:/Users/krzys/deepCTF/unity/CTF/Assets/Scripts/StartGameScript.cs:32)
+EnvController:Start () (at C:/Users/krzys/deepCTF/unity/CTF/Assets/Scripts/EnvController.cs:70)
+
+(Filename: C:/Users/krzys/deepCTF/unity/CTF/Assets/Scripts/BaseScripts/BaseBaseScript.cs Line: 78)
+
+CICS: 8270 AgentML_RED(Clone) (UnityEngine.Transform) at (150.00, 2.50, 82.00)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+BaseBaseScript:CheckIfCanSpawnAt (int) (at C:/Users/krzys/deepCTF/unity/CTF/Assets/Scripts/BaseScripts/BaseBaseScript.cs:81)
+BaseBaseScript:OnGameStart () (at C:/Users/krzys/deepCTF/unity/CTF/Assets/Scripts/BaseScripts/BaseBaseScript.cs:36)
+StartGameScript:StartGame () (at C:/Users/krzys/deepCTF/unity/CTF/Assets/Scripts/StartGameScript.cs:32)
+EnvController:Start () (at C:/Users/krzys/deepCTF/unity/CTF/Assets/Scripts/EnvController.cs:70)
+
+(Filename: C:/Users/krzys/deepCTF/unity/CTF/Assets/Scripts/BaseScripts/BaseBaseScript.cs Line: 81)
+
+CICS: 8268
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+BaseBaseScript:CheckIfCanSpawnAt (int) (at C:/Users/krzys/deepCTF/unity/CTF/Assets/Scripts/BaseScripts/BaseBaseScript.cs:78)
+BaseBaseScript:OnGameStart () (at C:/Users/krzys/deepCTF/unity/CTF/Assets/Scripts/BaseScripts/BaseBaseScript.cs:40)
+StartGameScript:StartGame () (at C:/Users/krzys/deepCTF/unity/CTF/Assets/Scripts/StartGameScript.cs:32)
+EnvController:Start () (at C:/Users/krzys/deepCTF/unity/CTF/Assets/Scripts/EnvController.cs:70)
+
+(Filename: C:/Users/krzys/deepCTF/unity/CTF/Assets/Scripts/BaseScripts/BaseBaseScript.cs Line: 78)
+
+CICS: 8268 AgentML_RED(Clone) (UnityEngine.Transform) at (150.00, 2.50, 82.00)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+BaseBaseScript:CheckIfCanSpawnAt (int) (at C:/Users/krzys/deepCTF/unity/CTF/Assets/Scripts/BaseScripts/BaseBaseScript.cs:81)
+BaseBaseScript:OnGameStart () (at C:/Users/krzys/deepCTF/unity/CTF/Assets/Scripts/BaseScripts/BaseBaseScript.cs:40)
+StartGameScript:StartGame () (at C:/Users/krzys/deepCTF/unity/CTF/Assets/Scripts/StartGameScript.cs:32)
+EnvController:Start () (at C:/Users/krzys/deepCTF/unity/CTF/Assets/Scripts/EnvController.cs:70)
+
+(Filename: C:/Users/krzys/deepCTF/unity/CTF/Assets/Scripts/BaseScripts/BaseBaseScript.cs Line: 81)
+
+CICS: 8268 AgentML_RED(Clone) (UnityEngine.Transform) at (150.00, 2.50, 74.00)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+BaseBaseScript:CheckIfCanSpawnAt (int) (at C:/Users/krzys/deepCTF/unity/CTF/Assets/Scripts/BaseScripts/BaseBaseScript.cs:81)
+BaseBaseScript:OnGameStart () (at C:/Users/krzys/deepCTF/unity/CTF/Assets/Scripts/BaseScripts/BaseBaseScript.cs:40)
+StartGameScript:StartGame () (at C:/Users/krzys/deepCTF/unity/CTF/Assets/Scripts/StartGameScript.cs:32)
+EnvController:Start () (at C:/Users/krzys/deepCTF/unity/CTF/Assets/Scripts/EnvController.cs:70)
+
+(Filename: C:/Users/krzys/deepCTF/unity/CTF/Assets/Scripts/BaseScripts/BaseBaseScript.cs Line: 81)
+
+CICS: 8369
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+BaseBaseScript:CheckIfCanSpawnAt (int) (at C:/Users/krzys/deepCTF/unity/CTF/Assets/Scripts/BaseScripts/BaseBaseScript.cs:78)
+BaseBaseScript:OnGameStart () (at C:/Users/krzys/deepCTF/unity/CTF/Assets/Scripts/BaseScripts/BaseBaseScript.cs:44)
+StartGameScript:StartGame () (at C:/Users/krzys/deepCTF/unity/CTF/Assets/Scripts/StartGameScript.cs:32)
+EnvController:Start () (at C:/Users/krzys/deepCTF/unity/CTF/Assets/Scripts/EnvController.cs:70)
+
+(Filename: C:/Users/krzys/deepCTF/unity/CTF/Assets/Scripts/BaseScripts/BaseBaseScript.cs Line: 78)
+
+CICS: 8369 AgentML_RED(Clone) (UnityEngine.Transform) at (150.00, 2.50, 82.00)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+BaseBaseScript:CheckIfCanSpawnAt (int) (at C:/Users/krzys/deepCTF/unity/CTF/Assets/Scripts/BaseScripts/BaseBaseScript.cs:81)
+BaseBaseScript:OnGameStart () (at C:/Users/krzys/deepCTF/unity/CTF/Assets/Scripts/BaseScripts/BaseBaseScript.cs:44)
+StartGameScript:StartGame () (at C:/Users/krzys/deepCTF/unity/CTF/Assets/Scripts/StartGameScript.cs:32)
+EnvController:Start () (at C:/Users/krzys/deepCTF/unity/CTF/Assets/Scripts/EnvController.cs:70)
+
+(Filename: C:/Users/krzys/deepCTF/unity/CTF/Assets/Scripts/BaseScripts/BaseBaseScript.cs Line: 81)
+
+CICS: 8369 AgentML_RED(Clone) (UnityEngine.Transform) at (150.00, 2.50, 74.00)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+BaseBaseScript:CheckIfCanSpawnAt (int) (at C:/Users/krzys/deepCTF/unity/CTF/Assets/Scripts/BaseScripts/BaseBaseScript.cs:81)
+BaseBaseScript:OnGameStart () (at C:/Users/krzys/deepCTF/unity/CTF/Assets/Scripts/BaseScripts/BaseBaseScript.cs:44)
+StartGameScript:StartGame () (at C:/Users/krzys/deepCTF/unity/CTF/Assets/Scripts/StartGameScript.cs:32)
+EnvController:Start () (at C:/Users/krzys/deepCTF/unity/CTF/Assets/Scripts/EnvController.cs:70)
+
+(Filename: C:/Users/krzys/deepCTF/unity/CTF/Assets/Scripts/BaseScripts/BaseBaseScript.cs Line: 81)
+
+OGS: trying spawn agent no 3
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+BaseBaseScript:OnGameStart () (at C:/Users/krzys/deepCTF/unity/CTF/Assets/Scripts/BaseScripts/BaseBaseScript.cs:35)
+StartGameScript:StartGame () (at C:/Users/krzys/deepCTF/unity/CTF/Assets/Scripts/StartGameScript.cs:32)
+EnvController:Start () (at C:/Users/krzys/deepCTF/unity/CTF/Assets/Scripts/EnvController.cs:70)
+
+(Filename: C:/Users/krzys/deepCTF/unity/CTF/Assets/Scripts/BaseScripts/BaseBaseScript.cs Line: 35)
+
+CICS: 8270
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+BaseBaseScript:CheckIfCanSpawnAt (int) (at C:/Users/krzys/deepCTF/unity/CTF/Assets/Scripts/BaseScripts/BaseBaseScript.cs:78)
+BaseBaseScript:OnGameStart () (at C:/Users/krzys/deepCTF/unity/CTF/Assets/Scripts/BaseScripts/BaseBaseScript.cs:36)
+StartGameScript:StartGame () (at C:/Users/krzys/deepCTF/unity/CTF/Assets/Scripts/StartGameScript.cs:32)
+EnvController:Start () (at C:/Users/krzys/deepCTF/unity/CTF/Assets/Scripts/EnvController.cs:70)
+
+(Filename: C:/Users/krzys/deepCTF/unity/CTF/Assets/Scripts/BaseScripts/BaseBaseScript.cs Line: 78)
+
+CICS: 8270 AgentML_RED(Clone) (UnityEngine.Transform) at (150.00, 2.50, 82.00)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+BaseBaseScript:CheckIfCanSpawnAt (int) (at C:/Users/krzys/deepCTF/unity/CTF/Assets/Scripts/BaseScripts/BaseBaseScript.cs:81)
+BaseBaseScript:OnGameStart () (at C:/Users/krzys/deepCTF/unity/CTF/Assets/Scripts/BaseScripts/BaseBaseScript.cs:36)
+StartGameScript:StartGame () (at C:/Users/krzys/deepCTF/unity/CTF/Assets/Scripts/StartGameScript.cs:32)
+EnvController:Start () (at C:/Users/krzys/deepCTF/unity/CTF/Assets/Scripts/EnvController.cs:70)
+
+(Filename: C:/Users/krzys/deepCTF/unity/CTF/Assets/Scripts/BaseScripts/BaseBaseScript.cs Line: 81)
+
+CICS: 8268
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+BaseBaseScript:CheckIfCanSpawnAt (int) (at C:/Users/krzys/deepCTF/unity/CTF/Assets/Scripts/BaseScripts/BaseBaseScript.cs:78)
+BaseBaseScript:OnGameStart () (at C:/Users/krzys/deepCTF/unity/CTF/Assets/Scripts/BaseScripts/BaseBaseScript.cs:40)
+StartGameScript:StartGame () (at C:/Users/krzys/deepCTF/unity/CTF/Assets/Scripts/StartGameScript.cs:32)
+EnvController:Start () (at C:/Users/krzys/deepCTF/unity/CTF/Assets/Scripts/EnvController.cs:70)
+
+(Filename: C:/Users/krzys/deepCTF/unity/CTF/Assets/Scripts/BaseScripts/BaseBaseScript.cs Line: 78)
+
+CICS: 8268 AgentML_RED(Clone) (UnityEngine.Transform) at (150.00, 2.50, 82.00)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+BaseBaseScript:CheckIfCanSpawnAt (int) (at C:/Users/krzys/deepCTF/unity/CTF/Assets/Scripts/BaseScripts/BaseBaseScript.cs:81)
+BaseBaseScript:OnGameStart () (at C:/Users/krzys/deepCTF/unity/CTF/Assets/Scripts/BaseScripts/BaseBaseScript.cs:40)
+StartGameScript:StartGame () (at C:/Users/krzys/deepCTF/unity/CTF/Assets/Scripts/StartGameScript.cs:32)
+EnvController:Start () (at C:/Users/krzys/deepCTF/unity/CTF/Assets/Scripts/EnvController.cs:70)
+
+(Filename: C:/Users/krzys/deepCTF/unity/CTF/Assets/Scripts/BaseScripts/BaseBaseScript.cs Line: 81)
+
+CICS: 8268 AgentML_RED(Clone) (UnityEngine.Transform) at (150.00, 2.50, 74.00)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+BaseBaseScript:CheckIfCanSpawnAt (int) (at C:/Users/krzys/deepCTF/unity/CTF/Assets/Scripts/BaseScripts/BaseBaseScript.cs:81)
+BaseBaseScript:OnGameStart () (at C:/Users/krzys/deepCTF/unity/CTF/Assets/Scripts/BaseScripts/BaseBaseScript.cs:40)
+StartGameScript:StartGame () (at C:/Users/krzys/deepCTF/unity/CTF/Assets/Scripts/StartGameScript.cs:32)
+EnvController:Start () (at C:/Users/krzys/deepCTF/unity/CTF/Assets/Scripts/EnvController.cs:70)
+
+(Filename: C:/Users/krzys/deepCTF/unity/CTF/Assets/Scripts/BaseScripts/BaseBaseScript.cs Line: 81)
+
+CICS: 8369
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+BaseBaseScript:CheckIfCanSpawnAt (int) (at C:/Users/krzys/deepCTF/unity/CTF/Assets/Scripts/BaseScripts/BaseBaseScript.cs:78)
+BaseBaseScript:OnGameStart () (at C:/Users/krzys/deepCTF/unity/CTF/Assets/Scripts/BaseScripts/BaseBaseScript.cs:44)
+StartGameScript:StartGame () (at C:/Users/krzys/deepCTF/unity/CTF/Assets/Scripts/StartGameScript.cs:32)
+EnvController:Start () (at C:/Users/krzys/deepCTF/unity/CTF/Assets/Scripts/EnvController.cs:70)
+
+(Filename: C:/Users/krzys/deepCTF/unity/CTF/Assets/Scripts/BaseScripts/BaseBaseScript.cs Line: 78)
+
+CICS: 8369 AgentML_RED(Clone) (UnityEngine.Transform) at (150.00, 2.50, 82.00)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+BaseBaseScript:CheckIfCanSpawnAt (int) (at C:/Users/krzys/deepCTF/unity/CTF/Assets/Scripts/BaseScripts/BaseBaseScript.cs:81)
+BaseBaseScript:OnGameStart () (at C:/Users/krzys/deepCTF/unity/CTF/Assets/Scripts/BaseScripts/BaseBaseScript.cs:44)
+StartGameScript:StartGame () (at C:/Users/krzys/deepCTF/unity/CTF/Assets/Scripts/StartGameScript.cs:32)
+EnvController:Start () (at C:/Users/krzys/deepCTF/unity/CTF/Assets/Scripts/EnvController.cs:70)
+
+(Filename: C:/Users/krzys/deepCTF/unity/CTF/Assets/Scripts/BaseScripts/BaseBaseScript.cs Line: 81)
+
+CICS: 8369 AgentML_RED(Clone) (UnityEngine.Transform) at (150.00, 2.50, 74.00)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+BaseBaseScript:CheckIfCanSpawnAt (int) (at C:/Users/krzys/deepCTF/unity/CTF/Assets/Scripts/BaseScripts/BaseBaseScript.cs:81)
+BaseBaseScript:OnGameStart () (at C:/Users/krzys/deepCTF/unity/CTF/Assets/Scripts/BaseScripts/BaseBaseScript.cs:44)
+StartGameScript:StartGame () (at C:/Users/krzys/deepCTF/unity/CTF/Assets/Scripts/StartGameScript.cs:32)
+EnvController:Start () (at C:/Users/krzys/deepCTF/unity/CTF/Assets/Scripts/EnvController.cs:70)
+
+(Filename: C:/Users/krzys/deepCTF/unity/CTF/Assets/Scripts/BaseScripts/BaseBaseScript.cs Line: 81)
+
+CICS: 8369 AgentML_RED(Clone) (UnityEngine.Transform) at (154.00, 2.50, 78.00)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+BaseBaseScript:CheckIfCanSpawnAt (int) (at C:/Users/krzys/deepCTF/unity/CTF/Assets/Scripts/BaseScripts/BaseBaseScript.cs:81)
+BaseBaseScript:OnGameStart () (at C:/Users/krzys/deepCTF/unity/CTF/Assets/Scripts/BaseScripts/BaseBaseScript.cs:44)
+StartGameScript:StartGame () (at C:/Users/krzys/deepCTF/unity/CTF/Assets/Scripts/StartGameScript.cs:32)
+EnvController:Start () (at C:/Users/krzys/deepCTF/unity/CTF/Assets/Scripts/EnvController.cs:70)
+
+(Filename: C:/Users/krzys/deepCTF/unity/CTF/Assets/Scripts/BaseScripts/BaseBaseScript.cs Line: 81)
+
+CICS: 8169
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+BaseBaseScript:CheckIfCanSpawnAt (int) (at C:/Users/krzys/deepCTF/unity/CTF/Assets/Scripts/BaseScripts/BaseBaseScript.cs:78)
+BaseBaseScript:OnGameStart () (at C:/Users/krzys/deepCTF/unity/CTF/Assets/Scripts/BaseScripts/BaseBaseScript.cs:48)
+StartGameScript:StartGame () (at C:/Users/krzys/deepCTF/unity/CTF/Assets/Scripts/StartGameScript.cs:32)
+EnvController:Start () (at C:/Users/krzys/deepCTF/unity/CTF/Assets/Scripts/EnvController.cs:70)
+
+(Filename: C:/Users/krzys/deepCTF/unity/CTF/Assets/Scripts/BaseScripts/BaseBaseScript.cs Line: 78)
+
+CICS: 8169 AgentML_RED(Clone) (UnityEngine.Transform) at (150.00, 2.50, 82.00)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+BaseBaseScript:CheckIfCanSpawnAt (int) (at C:/Users/krzys/deepCTF/unity/CTF/Assets/Scripts/BaseScripts/BaseBaseScript.cs:81)
+BaseBaseScript:OnGameStart () (at C:/Users/krzys/deepCTF/unity/CTF/Assets/Scripts/BaseScripts/BaseBaseScript.cs:48)
+StartGameScript:StartGame () (at C:/Users/krzys/deepCTF/unity/CTF/Assets/Scripts/StartGameScript.cs:32)
+EnvController:Start () (at C:/Users/krzys/deepCTF/unity/CTF/Assets/Scripts/EnvController.cs:70)
+
+(Filename: C:/Users/krzys/deepCTF/unity/CTF/Assets/Scripts/BaseScripts/BaseBaseScript.cs Line: 81)
+
+CICS: 8169 AgentML_RED(Clone) (UnityEngine.Transform) at (150.00, 2.50, 74.00)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+BaseBaseScript:CheckIfCanSpawnAt (int) (at C:/Users/krzys/deepCTF/unity/CTF/Assets/Scripts/BaseScripts/BaseBaseScript.cs:81)
+BaseBaseScript:OnGameStart () (at C:/Users/krzys/deepCTF/unity/CTF/Assets/Scripts/BaseScripts/BaseBaseScript.cs:48)
+StartGameScript:StartGame () (at C:/Users/krzys/deepCTF/unity/CTF/Assets/Scripts/StartGameScript.cs:32)
+EnvController:Start () (at C:/Users/krzys/deepCTF/unity/CTF/Assets/Scripts/EnvController.cs:70)
+
+(Filename: C:/Users/krzys/deepCTF/unity/CTF/Assets/Scripts/BaseScripts/BaseBaseScript.cs Line: 81)
+
+CICS: 8169 AgentML_RED(Clone) (UnityEngine.Transform) at (154.00, 2.50, 78.00)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+BaseBaseScript:CheckIfCanSpawnAt (int) (at C:/Users/krzys/deepCTF/unity/CTF/Assets/Scripts/BaseScripts/BaseBaseScript.cs:81)
+BaseBaseScript:OnGameStart () (at C:/Users/krzys/deepCTF/unity/CTF/Assets/Scripts/BaseScripts/BaseBaseScript.cs:48)
+StartGameScript:StartGame () (at C:/Users/krzys/deepCTF/unity/CTF/Assets/Scripts/StartGameScript.cs:32)
+EnvController:Start () (at C:/Users/krzys/deepCTF/unity/CTF/Assets/Scripts/EnvController.cs:70)
+
+(Filename: C:/Users/krzys/deepCTF/unity/CTF/Assets/Scripts/BaseScripts/BaseBaseScript.cs Line: 81)
+
+EPISODE BEGIN
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+AgentMovementWSAD:OnEpisodeBegin () (at C:/Users/krzys/deepCTF/unity/CTF/Assets/Scripts/AgentMovementWSAD.cs:454)
+Unity.MLAgents.Agent:_AgentReset () (at C:/Users/krzys/deepCTF/unity/ml-agents-packages/com.unity.ml-agents/Runtime/Agent.cs:1312)
+Unity.MLAgents.Academy:ForcedFullReset () (at C:/Users/krzys/deepCTF/unity/ml-agents-packages/com.unity.ml-agents/Runtime/Academy.cs:556)
+Unity.MLAgents.Academy:EnvironmentStep () (at C:/Users/krzys/deepCTF/unity/ml-agents-packages/com.unity.ml-agents/Runtime/Academy.cs:570)
+Unity.MLAgents.AcademyFixedUpdateStepper:FixedUpdate () (at C:/Users/krzys/deepCTF/unity/ml-agents-packages/com.unity.ml-agents/Runtime/Academy.cs:43)
+
+(Filename: C:/Users/krzys/deepCTF/unity/CTF/Assets/Scripts/AgentMovementWSAD.cs Line: 454)
+
+EPISODE BEGIN
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+AgentMovementWSAD:OnEpisodeBegin () (at C:/Users/krzys/deepCTF/unity/CTF/Assets/Scripts/AgentMovementWSAD.cs:454)
+Unity.MLAgents.Agent:_AgentReset () (at C:/Users/krzys/deepCTF/unity/ml-agents-packages/com.unity.ml-agents/Runtime/Agent.cs:1312)
+Unity.MLAgents.Academy:ForcedFullReset () (at C:/Users/krzys/deepCTF/unity/ml-agents-packages/com.unity.ml-agents/Runtime/Academy.cs:556)
+Unity.MLAgents.Academy:EnvironmentStep () (at C:/Users/krzys/deepCTF/unity/ml-agents-packages/com.unity.ml-agents/Runtime/Academy.cs:570)
+Unity.MLAgents.AcademyFixedUpdateStepper:FixedUpdate () (at C:/Users/krzys/deepCTF/unity/ml-agents-packages/com.unity.ml-agents/Runtime/Academy.cs:43)
+
+(Filename: C:/Users/krzys/deepCTF/unity/CTF/Assets/Scripts/AgentMovementWSAD.cs Line: 454)
+
+EPISODE BEGIN
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+AgentMovementWSAD:OnEpisodeBegin () (at C:/Users/krzys/deepCTF/unity/CTF/Assets/Scripts/AgentMovementWSAD.cs:454)
+Unity.MLAgents.Agent:_AgentReset () (at C:/Users/krzys/deepCTF/unity/ml-agents-packages/com.unity.ml-agents/Runtime/Agent.cs:1312)
+Unity.MLAgents.Academy:ForcedFullReset () (at C:/Users/krzys/deepCTF/unity/ml-agents-packages/com.unity.ml-agents/Runtime/Academy.cs:556)
+Unity.MLAgents.Academy:EnvironmentStep () (at C:/Users/krzys/deepCTF/unity/ml-agents-packages/com.unity.ml-agents/Runtime/Academy.cs:570)
+Unity.MLAgents.AcademyFixedUpdateStepper:FixedUpdate () (at C:/Users/krzys/deepCTF/unity/ml-agents-packages/com.unity.ml-agents/Runtime/Academy.cs:43)
+
+(Filename: C:/Users/krzys/deepCTF/unity/CTF/Assets/Scripts/AgentMovementWSAD.cs Line: 454)
+
+EPISODE BEGIN
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+AgentMovementWSAD:OnEpisodeBegin () (at C:/Users/krzys/deepCTF/unity/CTF/Assets/Scripts/AgentMovementWSAD.cs:454)
+Unity.MLAgents.Agent:_AgentReset () (at C:/Users/krzys/deepCTF/unity/ml-agents-packages/com.unity.ml-agents/Runtime/Agent.cs:1312)
+Unity.MLAgents.Academy:ForcedFullReset () (at C:/Users/krzys/deepCTF/unity/ml-agents-packages/com.unity.ml-agents/Runtime/Academy.cs:556)
+Unity.MLAgents.Academy:EnvironmentStep () (at C:/Users/krzys/deepCTF/unity/ml-agents-packages/com.unity.ml-agents/Runtime/Academy.cs:570)
+Unity.MLAgents.AcademyFixedUpdateStepper:FixedUpdate () (at C:/Users/krzys/deepCTF/unity/ml-agents-packages/com.unity.ml-agents/Runtime/Academy.cs:43)
+
+(Filename: C:/Users/krzys/deepCTF/unity/CTF/Assets/Scripts/AgentMovementWSAD.cs Line: 454)
+
+EPISODE BEGIN
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+AgentMovementWSAD:OnEpisodeBegin () (at C:/Users/krzys/deepCTF/unity/CTF/Assets/Scripts/AgentMovementWSAD.cs:454)
+Unity.MLAgents.Agent:_AgentReset () (at C:/Users/krzys/deepCTF/unity/ml-agents-packages/com.unity.ml-agents/Runtime/Agent.cs:1312)
+Unity.MLAgents.Academy:ForcedFullReset () (at C:/Users/krzys/deepCTF/unity/ml-agents-packages/com.unity.ml-agents/Runtime/Academy.cs:556)
+Unity.MLAgents.Academy:EnvironmentStep () (at C:/Users/krzys/deepCTF/unity/ml-agents-packages/com.unity.ml-agents/Runtime/Academy.cs:570)
+Unity.MLAgents.AcademyFixedUpdateStepper:FixedUpdate () (at C:/Users/krzys/deepCTF/unity/ml-agents-packages/com.unity.ml-agents/Runtime/Academy.cs:43)
+
+(Filename: C:/Users/krzys/deepCTF/unity/CTF/Assets/Scripts/AgentMovementWSAD.cs Line: 454)
+
+EPISODE BEGIN
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+AgentMovementWSAD:OnEpisodeBegin () (at C:/Users/krzys/deepCTF/unity/CTF/Assets/Scripts/AgentMovementWSAD.cs:454)
+Unity.MLAgents.Agent:_AgentReset () (at C:/Users/krzys/deepCTF/unity/ml-agents-packages/com.unity.ml-agents/Runtime/Agent.cs:1312)
+Unity.MLAgents.Academy:ForcedFullReset () (at C:/Users/krzys/deepCTF/unity/ml-agents-packages/com.unity.ml-agents/Runtime/Academy.cs:556)
+Unity.MLAgents.Academy:EnvironmentStep () (at C:/Users/krzys/deepCTF/unity/ml-agents-packages/com.unity.ml-agents/Runtime/Academy.cs:570)
+Unity.MLAgents.AcademyFixedUpdateStepper:FixedUpdate () (at C:/Users/krzys/deepCTF/unity/ml-agents-packages/com.unity.ml-agents/Runtime/Academy.cs:43)
+
+(Filename: C:/Users/krzys/deepCTF/unity/CTF/Assets/Scripts/AgentMovementWSAD.cs Line: 454)
+
+EPISODE BEGIN
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+AgentMovementWSAD:OnEpisodeBegin () (at C:/Users/krzys/deepCTF/unity/CTF/Assets/Scripts/AgentMovementWSAD.cs:454)
+Unity.MLAgents.Agent:_AgentReset () (at C:/Users/krzys/deepCTF/unity/ml-agents-packages/com.unity.ml-agents/Runtime/Agent.cs:1312)
+Unity.MLAgents.Academy:ForcedFullReset () (at C:/Users/krzys/deepCTF/unity/ml-agents-packages/com.unity.ml-agents/Runtime/Academy.cs:556)
+Unity.MLAgents.Academy:EnvironmentStep () (at C:/Users/krzys/deepCTF/unity/ml-agents-packages/com.unity.ml-agents/Runtime/Academy.cs:570)
+Unity.MLAgents.AcademyFixedUpdateStepper:FixedUpdate () (at C:/Users/krzys/deepCTF/unity/ml-agents-packages/com.unity.ml-agents/Runtime/Academy.cs:43)
+
+(Filename: C:/Users/krzys/deepCTF/unity/CTF/Assets/Scripts/AgentMovementWSAD.cs Line: 454)
+
+EPISODE BEGIN
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+AgentMovementWSAD:OnEpisodeBegin () (at C:/Users/krzys/deepCTF/unity/CTF/Assets/Scripts/AgentMovementWSAD.cs:454)
+Unity.MLAgents.Agent:_AgentReset () (at C:/Users/krzys/deepCTF/unity/ml-agents-packages/com.unity.ml-agents/Runtime/Agent.cs:1312)
+Unity.MLAgents.Academy:ForcedFullReset () (at C:/Users/krzys/deepCTF/unity/ml-agents-packages/com.unity.ml-agents/Runtime/Academy.cs:556)
+Unity.MLAgents.Academy:EnvironmentStep () (at C:/Users/krzys/deepCTF/unity/ml-agents-packages/com.unity.ml-agents/Runtime/Academy.cs:570)
+Unity.MLAgents.AcademyFixedUpdateStepper:FixedUpdate () (at C:/Users/krzys/deepCTF/unity/ml-agents-packages/com.unity.ml-agents/Runtime/Academy.cs:43)
+
+(Filename: C:/Users/krzys/deepCTF/unity/CTF/Assets/Scripts/AgentMovementWSAD.cs Line: 454)
+
+Fewer observations (0) made than vector observation size (419). The observations will be padded.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:LogFormat (UnityEngine.LogType,string,object[])
+UnityEngine.Debug:LogWarningFormat (string,object[])
+Unity.MLAgents.Sensors.VectorSensor:Write (Unity.MLAgents.Sensors.ObservationWriter) (at C:/Users/krzys/deepCTF/unity/ml-agents-packages/com.unity.ml-agents/Runtime/Sensors/VectorSensor.cs:56)
+Unity.MLAgents.Policies.HeuristicPolicy:StepSensors (System.Collections.Generic.List`1<Unity.MLAgents.Sensors.ISensor>) (at C:/Users/krzys/deepCTF/unity/ml-agents-packages/com.unity.ml-agents/Runtime/Policies/HeuristicPolicy.cs:133)
+Unity.MLAgents.Policies.HeuristicPolicy:RequestDecision (Unity.MLAgents.AgentInfo,System.Collections.Generic.List`1<Unity.MLAgents.Sensors.ISensor>) (at C:/Users/krzys/deepCTF/unity/ml-agents-packages/com.unity.ml-agents/Runtime/Policies/HeuristicPolicy.cs:38)
+Unity.MLAgents.Agent:SendInfoToBrain () (at C:/Users/krzys/deepCTF/unity/ml-agents-packages/com.unity.ml-agents/Runtime/Agent.cs:1101)
+Unity.MLAgents.Agent:SendInfo () (at C:/Users/krzys/deepCTF/unity/ml-agents-packages/com.unity.ml-agents/Runtime/Agent.cs:1339)
+Unity.MLAgents.Academy:EnvironmentStep () (at C:/Users/krzys/deepCTF/unity/ml-agents-packages/com.unity.ml-agents/Runtime/Academy.cs:581)
+Unity.MLAgents.AcademyFixedUpdateStepper:FixedUpdate () (at C:/Users/krzys/deepCTF/unity/ml-agents-packages/com.unity.ml-agents/Runtime/Academy.cs:43)
+
+(Filename: C:/Users/krzys/deepCTF/unity/ml-agents-packages/com.unity.ml-agents/Runtime/Sensors/VectorSensor.cs Line: 56)
+
+Fewer observations (0) made than vector observation size (419). The observations will be padded.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:LogFormat (UnityEngine.LogType,string,object[])
+UnityEngine.Debug:LogWarningFormat (string,object[])
+Unity.MLAgents.Sensors.VectorSensor:Write (Unity.MLAgents.Sensors.ObservationWriter) (at C:/Users/krzys/deepCTF/unity/ml-agents-packages/com.unity.ml-agents/Runtime/Sensors/VectorSensor.cs:56)
+Unity.MLAgents.Policies.HeuristicPolicy:StepSensors (System.Collections.Generic.List`1<Unity.MLAgents.Sensors.ISensor>) (at C:/Users/krzys/deepCTF/unity/ml-agents-packages/com.unity.ml-agents/Runtime/Policies/HeuristicPolicy.cs:133)
+Unity.MLAgents.Policies.HeuristicPolicy:RequestDecision (Unity.MLAgents.AgentInfo,System.Collections.Generic.List`1<Unity.MLAgents.Sensors.ISensor>) (at C:/Users/krzys/deepCTF/unity/ml-agents-packages/com.unity.ml-agents/Runtime/Policies/HeuristicPolicy.cs:38)
+Unity.MLAgents.Agent:SendInfoToBrain () (at C:/Users/krzys/deepCTF/unity/ml-agents-packages/com.unity.ml-agents/Runtime/Agent.cs:1101)
+Unity.MLAgents.Agent:SendInfo () (at C:/Users/krzys/deepCTF/unity/ml-agents-packages/com.unity.ml-agents/Runtime/Agent.cs:1339)
+Unity.MLAgents.Academy:EnvironmentStep () (at C:/Users/krzys/deepCTF/unity/ml-agents-packages/com.unity.ml-agents/Runtime/Academy.cs:581)
+Unity.MLAgents.AcademyFixedUpdateStepper:FixedUpdate () (at C:/Users/krzys/deepCTF/unity/ml-agents-packages/com.unity.ml-agents/Runtime/Academy.cs:43)
+
+(Filename: C:/Users/krzys/deepCTF/unity/ml-agents-packages/com.unity.ml-agents/Runtime/Sensors/VectorSensor.cs Line: 56)
+
+Fewer observations (0) made than vector observation size (419). The observations will be padded.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:LogFormat (UnityEngine.LogType,string,object[])
+UnityEngine.Debug:LogWarningFormat (string,object[])
+Unity.MLAgents.Sensors.VectorSensor:Write (Unity.MLAgents.Sensors.ObservationWriter) (at C:/Users/krzys/deepCTF/unity/ml-agents-packages/com.unity.ml-agents/Runtime/Sensors/VectorSensor.cs:56)
+Unity.MLAgents.Policies.HeuristicPolicy:StepSensors (System.Collections.Generic.List`1<Unity.MLAgents.Sensors.ISensor>) (at C:/Users/krzys/deepCTF/unity/ml-agents-packages/com.unity.ml-agents/Runtime/Policies/HeuristicPolicy.cs:133)
+Unity.MLAgents.Policies.HeuristicPolicy:RequestDecision (Unity.MLAgents.AgentInfo,System.Collections.Generic.List`1<Unity.MLAgents.Sensors.ISensor>) (at C:/Users/krzys/deepCTF/unity/ml-agents-packages/com.unity.ml-agents/Runtime/Policies/HeuristicPolicy.cs:38)
+Unity.MLAgents.Agent:SendInfoToBrain () (at C:/Users/krzys/deepCTF/unity/ml-agents-packages/com.unity.ml-agents/Runtime/Agent.cs:1101)
+Unity.MLAgents.Agent:SendInfo () (at C:/Users/krzys/deepCTF/unity/ml-agents-packages/com.unity.ml-agents/Runtime/Agent.cs:1339)
+Unity.MLAgents.Academy:EnvironmentStep () (at C:/Users/krzys/deepCTF/unity/ml-agents-packages/com.unity.ml-agents/Runtime/Academy.cs:581)
+Unity.MLAgents.AcademyFixedUpdateStepper:FixedUpdate () (at C:/Users/krzys/deepCTF/unity/ml-agents-packages/com.unity.ml-agents/Runtime/Academy.cs:43)
+
+(Filename: C:/Users/krzys/deepCTF/unity/ml-agents-packages/com.unity.ml-agents/Runtime/Sensors/VectorSensor.cs Line: 56)
+
+Fewer observations (0) made than vector observation size (419). The observations will be padded.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:LogFormat (UnityEngine.LogType,string,object[])
+UnityEngine.Debug:LogWarningFormat (string,object[])
+Unity.MLAgents.Sensors.VectorSensor:Write (Unity.MLAgents.Sensors.ObservationWriter) (at C:/Users/krzys/deepCTF/unity/ml-agents-packages/com.unity.ml-agents/Runtime/Sensors/VectorSensor.cs:56)
+Unity.MLAgents.Policies.HeuristicPolicy:StepSensors (System.Collections.Generic.List`1<Unity.MLAgents.Sensors.ISensor>) (at C:/Users/krzys/deepCTF/unity/ml-agents-packages/com.unity.ml-agents/Runtime/Policies/HeuristicPolicy.cs:133)
+Unity.MLAgents.Policies.HeuristicPolicy:RequestDecision (Unity.MLAgents.AgentInfo,System.Collections.Generic.List`1<Unity.MLAgents.Sensors.ISensor>) (at C:/Users/krzys/deepCTF/unity/ml-agents-packages/com.unity.ml-agents/Runtime/Policies/HeuristicPolicy.cs:38)
+Unity.MLAgents.Agent:SendInfoToBrain () (at C:/Users/krzys/deepCTF/unity/ml-agents-packages/com.unity.ml-agents/Runtime/Agent.cs:1101)
+Unity.MLAgents.Agent:SendInfo () (at C:/Users/krzys/deepCTF/unity/ml-agents-packages/com.unity.ml-agents/Runtime/Agent.cs:1339)
+Unity.MLAgents.Academy:EnvironmentStep () (at C:/Users/krzys/deepCTF/unity/ml-agents-packages/com.unity.ml-agents/Runtime/Academy.cs:581)
+Unity.MLAgents.AcademyFixedUpdateStepper:FixedUpdate () (at C:/Users/krzys/deepCTF/unity/ml-agents-packages/com.unity.ml-agents/Runtime/Academy.cs:43)
+
+(Filename: C:/Users/krzys/deepCTF/unity/ml-agents-packages/com.unity.ml-agents/Runtime/Sensors/VectorSensor.cs Line: 56)
+
+Steps:0
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+EnvController:FixedUpdate () (at C:/Users/krzys/deepCTF/unity/CTF/Assets/Scripts/EnvController.cs:166)
+
+(Filename: C:/Users/krzys/deepCTF/unity/CTF/Assets/Scripts/EnvController.cs Line: 166)
+
+Fewer observations (0) made than vector observation size (419). The observations will be padded.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:LogFormat (UnityEngine.LogType,string,object[])
+UnityEngine.Debug:LogWarningFormat (string,object[])
+Unity.MLAgents.Sensors.VectorSensor:Write (Unity.MLAgents.Sensors.ObservationWriter) (at C:/Users/krzys/deepCTF/unity/ml-agents-packages/com.unity.ml-agents/Runtime/Sensors/VectorSensor.cs:56)
+Unity.MLAgents.Policies.HeuristicPolicy:StepSensors (System.Collections.Generic.List`1<Unity.MLAgents.Sensors.ISensor>) (at C:/Users/krzys/deepCTF/unity/ml-agents-packages/com.unity.ml-agents/Runtime/Policies/HeuristicPolicy.cs:133)
+Unity.MLAgents.Policies.HeuristicPolicy:RequestDecision (Unity.MLAgents.AgentInfo,System.Collections.Generic.List`1<Unity.MLAgents.Sensors.ISensor>) (at C:/Users/krzys/deepCTF/unity/ml-agents-packages/com.unity.ml-agents/Runtime/Policies/HeuristicPolicy.cs:38)
+Unity.MLAgents.Agent:SendInfoToBrain () (at C:/Users/krzys/deepCTF/unity/ml-agents-packages/com.unity.ml-agents/Runtime/Agent.cs:1101)
+Unity.MLAgents.Agent:SendInfo () (at C:/Users/krzys/deepCTF/unity/ml-agents-packages/com.unity.ml-agents/Runtime/Agent.cs:1339)
+Unity.MLAgents.Academy:EnvironmentStep () (at C:/Users/krzys/deepCTF/unity/ml-agents-packages/com.unity.ml-agents/Runtime/Academy.cs:581)
+Unity.MLAgents.AcademyFixedUpdateStepper:FixedUpdate () (at C:/Users/krzys/deepCTF/unity/ml-agents-packages/com.unity.ml-agents/Runtime/Academy.cs:43)
+
+(Filename: C:/Users/krzys/deepCTF/unity/ml-agents-packages/com.unity.ml-agents/Runtime/Sensors/VectorSensor.cs Line: 56)
+
+Fewer observations (0) made than vector observation size (419). The observations will be padded.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:LogFormat (UnityEngine.LogType,string,object[])
+UnityEngine.Debug:LogWarningFormat (string,object[])
+Unity.MLAgents.Sensors.VectorSensor:Write (Unity.MLAgents.Sensors.ObservationWriter) (at C:/Users/krzys/deepCTF/unity/ml-agents-packages/com.unity.ml-agents/Runtime/Sensors/VectorSensor.cs:56)
+Unity.MLAgents.Policies.HeuristicPolicy:StepSensors (System.Collections.Generic.List`1<Unity.MLAgents.Sensors.ISensor>) (at C:/Users/krzys/deepCTF/unity/ml-agents-packages/com.unity.ml-agents/Runtime/Policies/HeuristicPolicy.cs:133)
+Unity.MLAgents.Policies.HeuristicPolicy:RequestDecision (Unity.MLAgents.AgentInfo,System.Collections.Generic.List`1<Unity.MLAgents.Sensors.ISensor>) (at C:/Users/krzys/deepCTF/unity/ml-agents-packages/com.unity.ml-agents/Runtime/Policies/HeuristicPolicy.cs:38)
+Unity.MLAgents.Agent:SendInfoToBrain () (at C:/Users/krzys/deepCTF/unity/ml-agents-packages/com.unity.ml-agents/Runtime/Agent.cs:1101)
+Unity.MLAgents.Agent:SendInfo () (at C:/Users/krzys/deepCTF/unity/ml-agents-packages/com.unity.ml-agents/Runtime/Agent.cs:1339)
+Unity.MLAgents.Academy:EnvironmentStep () (at C:/Users/krzys/deepCTF/unity/ml-agents-packages/com.unity.ml-agents/Runtime/Academy.cs:581)
+Unity.MLAgents.AcademyFixedUpdateStepper:FixedUpdate () (at C:/Users/krzys/deepCTF/unity/ml-agents-packages/com.unity.ml-agents/Runtime/Academy.cs:43)
+
+(Filename: C:/Users/krzys/deepCTF/unity/ml-agents-packages/com.unity.ml-agents/Runtime/Sensors/VectorSensor.cs Line: 56)
+
+Fewer observations (0) made than vector observation size (419). The observations will be padded.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:LogFormat (UnityEngine.LogType,string,object[])
+UnityEngine.Debug:LogWarningFormat (string,object[])
+Unity.MLAgents.Sensors.VectorSensor:Write (Unity.MLAgents.Sensors.ObservationWriter) (at C:/Users/krzys/deepCTF/unity/ml-agents-packages/com.unity.ml-agents/Runtime/Sensors/VectorSensor.cs:56)
+Unity.MLAgents.Policies.HeuristicPolicy:StepSensors (System.Collections.Generic.List`1<Unity.MLAgents.Sensors.ISensor>) (at C:/Users/krzys/deepCTF/unity/ml-agents-packages/com.unity.ml-agents/Runtime/Policies/HeuristicPolicy.cs:133)
+Unity.MLAgents.Policies.HeuristicPolicy:RequestDecision (Unity.MLAgents.AgentInfo,System.Collections.Generic.List`1<Unity.MLAgents.Sensors.ISensor>) (at C:/Users/krzys/deepCTF/unity/ml-agents-packages/com.unity.ml-agents/Runtime/Policies/HeuristicPolicy.cs:38)
+Unity.MLAgents.Agent:SendInfoToBrain () (at C:/Users/krzys/deepCTF/unity/ml-agents-packages/com.unity.ml-agents/Runtime/Agent.cs:1101)
+Unity.MLAgents.Agent:SendInfo () (at C:/Users/krzys/deepCTF/unity/ml-agents-packages/com.unity.ml-agents/Runtime/Agent.cs:1339)
+Unity.MLAgents.Academy:EnvironmentStep () (at C:/Users/krzys/deepCTF/unity/ml-agents-packages/com.unity.ml-agents/Runtime/Academy.cs:581)
+Unity.MLAgents.AcademyFixedUpdateStepper:FixedUpdate () (at C:/Users/krzys/deepCTF/unity/ml-agents-packages/com.unity.ml-agents/Runtime/Academy.cs:43)
+
+(Filename: C:/Users/krzys/deepCTF/unity/ml-agents-packages/com.unity.ml-agents/Runtime/Sensors/VectorSensor.cs Line: 56)
+
+Fewer observations (0) made than vector observation size (419). The observations will be padded.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:LogFormat (UnityEngine.LogType,string,object[])
+UnityEngine.Debug:LogWarningFormat (string,object[])
+Unity.MLAgents.Sensors.VectorSensor:Write (Unity.MLAgents.Sensors.ObservationWriter) (at C:/Users/krzys/deepCTF/unity/ml-agents-packages/com.unity.ml-agents/Runtime/Sensors/VectorSensor.cs:56)
+Unity.MLAgents.Policies.HeuristicPolicy:StepSensors (System.Collections.Generic.List`1<Unity.MLAgents.Sensors.ISensor>) (at C:/Users/krzys/deepCTF/unity/ml-agents-packages/com.unity.ml-agents/Runtime/Policies/HeuristicPolicy.cs:133)
+Unity.MLAgents.Policies.HeuristicPolicy:RequestDecision (Unity.MLAgents.AgentInfo,System.Collections.Generic.List`1<Unity.MLAgents.Sensors.ISensor>) (at C:/Users/krzys/deepCTF/unity/ml-agents-packages/com.unity.ml-agents/Runtime/Policies/HeuristicPolicy.cs:38)
+Unity.MLAgents.Agent:SendInfoToBrain () (at C:/Users/krzys/deepCTF/unity/ml-agents-packages/com.unity.ml-agents/Runtime/Agent.cs:1101)
+Unity.MLAgents.Agent:SendInfo () (at C:/Users/krzys/deepCTF/unity/ml-agents-packages/com.unity.ml-agents/Runtime/Agent.cs:1339)
+Unity.MLAgents.Academy:EnvironmentStep () (at C:/Users/krzys/deepCTF/unity/ml-agents-packages/com.unity.ml-agents/Runtime/Academy.cs:581)
+Unity.MLAgents.AcademyFixedUpdateStepper:FixedUpdate () (at C:/Users/krzys/deepCTF/unity/ml-agents-packages/com.unity.ml-agents/Runtime/Academy.cs:43)
+
+(Filename: C:/Users/krzys/deepCTF/unity/ml-agents-packages/com.unity.ml-agents/Runtime/Sensors/VectorSensor.cs Line: 56)
+
+Distance Difference = -0,1575165  Reward = -0,001417648
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+AgentMovementWSAD:AddFlagDistanceRewardBasedOnDistanceDifference (single,single) (at C:/Users/krzys/deepCTF/unity/CTF/Assets/Scripts/AgentMovementWSAD.cs:208)
+AgentMovementWSAD:DistanceRewardKacpraPoKonsultacji () (at C:/Users/krzys/deepCTF/unity/CTF/Assets/Scripts/AgentMovementWSAD.cs:183)
+AgentMovementWSAD:FixedUpdate () (at C:/Users/krzys/deepCTF/unity/CTF/Assets/Scripts/AgentMovementWSAD.cs:71)
+
+(Filename: C:/Users/krzys/deepCTF/unity/CTF/Assets/Scripts/AgentMovementWSAD.cs Line: 208)
+
+TOTAL DISTANCE REW. = -0,001417648
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+AgentMovementWSAD:AddFlagDistanceRewardBasedOnDistanceDifference (single,single) (at C:/Users/krzys/deepCTF/unity/CTF/Assets/Scripts/AgentMovementWSAD.cs:210)
+AgentMovementWSAD:DistanceRewardKacpraPoKonsultacji () (at C:/Users/krzys/deepCTF/unity/CTF/Assets/Scripts/AgentMovementWSAD.cs:183)
+AgentMovementWSAD:FixedUpdate () (at C:/Users/krzys/deepCTF/unity/CTF/Assets/Scripts/AgentMovementWSAD.cs:71)
+
+(Filename: C:/Users/krzys/deepCTF/unity/CTF/Assets/Scripts/AgentMovementWSAD.cs Line: 210)
+
+Distance Difference = 0,1570816  Reward = 0,001413734
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+AgentMovementWSAD:AddFlagDistanceRewardBasedOnDistanceDifference (single,single) (at C:/Users/krzys/deepCTF/unity/CTF/Assets/Scripts/AgentMovementWSAD.cs:208)
+AgentMovementWSAD:DistanceRewardKacpraPoKonsultacji () (at C:/Users/krzys/deepCTF/unity/CTF/Assets/Scripts/AgentMovementWSAD.cs:183)
+AgentMovementWSAD:FixedUpdate () (at C:/Users/krzys/deepCTF/unity/CTF/Assets/Scripts/AgentMovementWSAD.cs:71)
+
+(Filename: C:/Users/krzys/deepCTF/unity/CTF/Assets/Scripts/AgentMovementWSAD.cs Line: 208)
+
+TOTAL DISTANCE REW. = 0,001413734
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+AgentMovementWSAD:AddFlagDistanceRewardBasedOnDistanceDifference (single,single) (at C:/Users/krzys/deepCTF/unity/CTF/Assets/Scripts/AgentMovementWSAD.cs:210)
+AgentMovementWSAD:DistanceRewardKacpraPoKonsultacji () (at C:/Users/krzys/deepCTF/unity/CTF/Assets/Scripts/AgentMovementWSAD.cs:183)
+AgentMovementWSAD:FixedUpdate () (at C:/Users/krzys/deepCTF/unity/CTF/Assets/Scripts/AgentMovementWSAD.cs:71)
+
+(Filename: C:/Users/krzys/deepCTF/unity/CTF/Assets/Scripts/AgentMovementWSAD.cs Line: 210)
+
+Distance Difference = 0  Reward = 0
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+AgentMovementWSAD:AddFlagDistanceRewardBasedOnDistanceDifference (single,single) (at C:/Users/krzys/deepCTF/unity/CTF/Assets/Scripts/AgentMovementWSAD.cs:208)
+AgentMovementWSAD:DistanceRewardKacpraPoKonsultacji () (at C:/Users/krzys/deepCTF/unity/CTF/Assets/Scripts/AgentMovementWSAD.cs:183)
+AgentMovementWSAD:FixedUpdate () (at C:/Users/krzys/deepCTF/unity/CTF/Assets/Scripts/AgentMovementWSAD.cs:71)
+
+(Filename: C:/Users/krzys/deepCTF/unity/CTF/Assets/Scripts/AgentMovementWSAD.cs Line: 208)
+
+TOTAL DISTANCE REW. = 0
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+AgentMovementWSAD:AddFlagDistanceRewardBasedOnDistanceDifference (single,single) (at C:/Users/krzys/deepCTF/unity/CTF/Assets/Scripts/AgentMovementWSAD.cs:210)
+AgentMovementWSAD:DistanceRewardKacpraPoKonsultacji () (at C:/Users/krzys/deepCTF/unity/CTF/Assets/Scripts/AgentMovementWSAD.cs:183)
+AgentMovementWSAD:FixedUpdate () (at C:/Users/krzys/deepCTF/unity/CTF/Assets/Scripts/AgentMovementWSAD.cs:71)
+
+(Filename: C:/Users/krzys/deepCTF/unity/CTF/Assets/Scripts/AgentMovementWSAD.cs Line: 210)
+
+Distance Difference = 0  Reward = 0
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+AgentMovementWSAD:AddFlagDistanceRewardBasedOnDistanceDifference (single,single) (at C:/Users/krzys/deepCTF/unity/CTF/Assets/Scripts/AgentMovementWSAD.cs:208)
+AgentMovementWSAD:DistanceRewardKacpraPoKonsultacji () (at C:/Users/krzys/deepCTF/unity/CTF/Assets/Scripts/AgentMovementWSAD.cs:183)
+AgentMovementWSAD:FixedUpdate () (at C:/Users/krzys/deepCTF/unity/CTF/Assets/Scripts/AgentMovementWSAD.cs:71)
+
+(Filename: C:/Users/krzys/deepCTF/unity/CTF/Assets/Scripts/AgentMovementWSAD.cs Line: 208)
+
+TOTAL DISTANCE REW. = 0
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+AgentMovementWSAD:AddFlagDistanceRewardBasedOnDistanceDifference (single,single) (at C:/Users/krzys/deepCTF/unity/CTF/Assets/Scripts/AgentMovementWSAD.cs:210)
+AgentMovementWSAD:DistanceRewardKacpraPoKonsultacji () (at C:/Users/krzys/deepCTF/unity/CTF/Assets/Scripts/AgentMovementWSAD.cs:183)
+AgentMovementWSAD:FixedUpdate () (at C:/Users/krzys/deepCTF/unity/CTF/Assets/Scripts/AgentMovementWSAD.cs:71)
+
+(Filename: C:/Users/krzys/deepCTF/unity/CTF/Assets/Scripts/AgentMovementWSAD.cs Line: 210)
+
+Distance Difference = 0,07043457  Reward = 0,0006339111
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+AgentMovementWSAD:AddFlagDistanceRewardBasedOnDistanceDifference (single,single) (at C:/Users/krzys/deepCTF/unity/CTF/Assets/Scripts/AgentMovementWSAD.cs:208)
+AgentMovementWSAD:DistanceRewardKacpraPoKonsultacji () (at C:/Users/krzys/deepCTF/unity/CTF/Assets/Scripts/AgentMovementWSAD.cs:183)
+AgentMovementWSAD:FixedUpdate () (at C:/Users/krzys/deepCTF/unity/CTF/Assets/Scripts/AgentMovementWSAD.cs:71)
+
+(Filename: C:/Users/krzys/deepCTF/unity/CTF/Assets/Scripts/AgentMovementWSAD.cs Line: 208)
+
+TOTAL DISTANCE REW. = 0,0006339111
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+AgentMovementWSAD:AddFlagDistanceRewardBasedOnDistanceDifference (single,single) (at C:/Users/krzys/deepCTF/unity/CTF/Assets/Scripts/AgentMovementWSAD.cs:210)
+AgentMovementWSAD:DistanceRewardKacpraPoKonsultacji () (at C:/Users/krzys/deepCTF/unity/CTF/Assets/Scripts/AgentMovementWSAD.cs:183)
+AgentMovementWSAD:FixedUpdate () (at C:/Users/krzys/deepCTF/unity/CTF/Assets/Scripts/AgentMovementWSAD.cs:71)
+
+(Filename: C:/Users/krzys/deepCTF/unity/CTF/Assets/Scripts/AgentMovementWSAD.cs Line: 210)
+
+Distance Difference = -0,1936951  Reward = -0,001743256
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+AgentMovementWSAD:AddFlagDistanceRewardBasedOnDistanceDifference (single,single) (at C:/Users/krzys/deepCTF/unity/CTF/Assets/Scripts/AgentMovementWSAD.cs:208)
+AgentMovementWSAD:DistanceRewardKacpraPoKonsultacji () (at C:/Users/krzys/deepCTF/unity/CTF/Assets/Scripts/AgentMovementWSAD.cs:183)
+AgentMovementWSAD:FixedUpdate () (at C:/Users/krzys/deepCTF/unity/CTF/Assets/Scripts/AgentMovementWSAD.cs:71)
+
+(Filename: C:/Users/krzys/deepCTF/unity/CTF/Assets/Scripts/AgentMovementWSAD.cs Line: 208)
+
+TOTAL DISTANCE REW. = -0,001743256
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+AgentMovementWSAD:AddFlagDistanceRewardBasedOnDistanceDifference (single,single) (at C:/Users/krzys/deepCTF/unity/CTF/Assets/Scripts/AgentMovementWSAD.cs:210)
+AgentMovementWSAD:DistanceRewardKacpraPoKonsultacji () (at C:/Users/krzys/deepCTF/unity/CTF/Assets/Scripts/AgentMovementWSAD.cs:183)
+AgentMovementWSAD:FixedUpdate () (at C:/Users/krzys/deepCTF/unity/CTF/Assets/Scripts/AgentMovementWSAD.cs:71)
+
+(Filename: C:/Users/krzys/deepCTF/unity/CTF/Assets/Scripts/AgentMovementWSAD.cs Line: 210)
+
+Distance Difference = -0,185379  Reward = -0,001668411
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+AgentMovementWSAD:AddFlagDistanceRewardBasedOnDistanceDifference (single,single) (at C:/Users/krzys/deepCTF/unity/CTF/Assets/Scripts/AgentMovementWSAD.cs:208)
+AgentMovementWSAD:DistanceRewardKacpraPoKonsultacji () (at C:/Users/krzys/deepCTF/unity/CTF/Assets/Scripts/AgentMovementWSAD.cs:183)
+AgentMovementWSAD:FixedUpdate () (at C:/Users/krzys/deepCTF/unity/CTF/Assets/Scripts/AgentMovementWSAD.cs:71)
+
+(Filename: C:/Users/krzys/deepCTF/unity/CTF/Assets/Scripts/AgentMovementWSAD.cs Line: 208)
+
+TOTAL DISTANCE REW. = -0,001668411
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+AgentMovementWSAD:AddFlagDistanceRewardBasedOnDistanceDifference (single,single) (at C:/Users/krzys/deepCTF/unity/CTF/Assets/Scripts/AgentMovementWSAD.cs:210)
+AgentMovementWSAD:DistanceRewardKacpraPoKonsultacji () (at C:/Users/krzys/deepCTF/unity/CTF/Assets/Scripts/AgentMovementWSAD.cs:183)
+AgentMovementWSAD:FixedUpdate () (at C:/Users/krzys/deepCTF/unity/CTF/Assets/Scripts/AgentMovementWSAD.cs:71)
+
+(Filename: C:/Users/krzys/deepCTF/unity/CTF/Assets/Scripts/AgentMovementWSAD.cs Line: 210)
+
+Distance Difference = -0,03495026  Reward = -0,0003145523
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+AgentMovementWSAD:AddFlagDistanceRewardBasedOnDistanceDifference (single,single) (at C:/Users/krzys/deepCTF/unity/CTF/Assets/Scripts/AgentMovementWSAD.cs:208)
+AgentMovementWSAD:DistanceRewardKacpraPoKonsultacji () (at C:/Users/krzys/deepCTF/unity/CTF/Assets/Scripts/AgentMovementWSAD.cs:183)
+AgentMovementWSAD:FixedUpdate () (at C:/Users/krzys/deepCTF/unity/CTF/Assets/Scripts/AgentMovementWSAD.cs:71)
+
+(Filename: C:/Users/krzys/deepCTF/unity/CTF/Assets/Scripts/AgentMovementWSAD.cs Line: 208)
+
+TOTAL DISTANCE REW. = -0,0003145523
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+AgentMovementWSAD:AddFlagDistanceRewardBasedOnDistanceDifference (single,single) (at C:/Users/krzys/deepCTF/unity/CTF/Assets/Scripts/AgentMovementWSAD.cs:210)
+AgentMovementWSAD:DistanceRewardKacpraPoKonsultacji () (at C:/Users/krzys/deepCTF/unity/CTF/Assets/Scripts/AgentMovementWSAD.cs:183)
+AgentMovementWSAD:FixedUpdate () (at C:/Users/krzys/deepCTF/unity/CTF/Assets/Scripts/AgentMovementWSAD.cs:71)
+
+(Filename: C:/Users/krzys/deepCTF/unity/CTF/Assets/Scripts/AgentMovementWSAD.cs Line: 210)
+
+Fewer observations (0) made than vector observation size (419). The observations will be padded.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:LogFormat (UnityEngine.LogType,string,object[])
+UnityEngine.Debug:LogWarningFormat (string,object[])
+Unity.MLAgents.Sensors.VectorSensor:Write (Unity.MLAgents.Sensors.ObservationWriter) (at C:/Users/krzys/deepCTF/unity/ml-agents-packages/com.unity.ml-agents/Runtime/Sensors/VectorSensor.cs:56)
+Unity.MLAgents.Policies.HeuristicPolicy:StepSensors (System.Collections.Generic.List`1<Unity.MLAgents.Sensors.ISensor>) (at C:/Users/krzys/deepCTF/unity/ml-agents-packages/com.unity.ml-agents/Runtime/Policies/HeuristicPolicy.cs:133)
+Unity.MLAgents.Policies.HeuristicPolicy:RequestDecision (Unity.MLAgents.AgentInfo,System.Collections.Generic.List`1<Unity.MLAgents.Sensors.ISensor>) (at C:/Users/krzys/deepCTF/unity/ml-agents-packages/com.unity.ml-agents/Runtime/Policies/HeuristicPolicy.cs:38)
+Unity.MLAgents.Agent:SendInfoToBrain () (at C:/Users/krzys/deepCTF/unity/ml-agents-packages/com.unity.ml-agents/Runtime/Agent.cs:1101)
+Unity.MLAgents.Agent:SendInfo () (at C:/Users/krzys/deepCTF/unity/ml-agents-packages/com.unity.ml-agents/Runtime/Agent.cs:1339)
+Unity.MLAgents.Academy:EnvironmentStep () (at C:/Users/krzys/deepCTF/unity/ml-agents-packages/com.unity.ml-agents/Runtime/Academy.cs:581)
+Unity.MLAgents.AcademyFixedUpdateStepper:FixedUpdate () (at C:/Users/krzys/deepCTF/unity/ml-agents-packages/com.unity.ml-agents/Runtime/Academy.cs:43)
+
+(Filename: C:/Users/krzys/deepCTF/unity/ml-agents-packages/com.unity.ml-agents/Runtime/Sensors/VectorSensor.cs Line: 56)
+
+Fewer observations (0) made than vector observation size (419). The observations will be padded.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:LogFormat (UnityEngine.LogType,string,object[])
+UnityEngine.Debug:LogWarningFormat (string,object[])
+Unity.MLAgents.Sensors.VectorSensor:Write (Unity.MLAgents.Sensors.ObservationWriter) (at C:/Users/krzys/deepCTF/unity/ml-agents-packages/com.unity.ml-agents/Runtime/Sensors/VectorSensor.cs:56)
+Unity.MLAgents.Policies.HeuristicPolicy:StepSensors (System.Collections.Generic.List`1<Unity.MLAgents.Sensors.ISensor>) (at C:/Users/krzys/deepCTF/unity/ml-agents-packages/com.unity.ml-agents/Runtime/Policies/HeuristicPolicy.cs:133)
+Unity.MLAgents.Policies.HeuristicPolicy:RequestDecision (Unity.MLAgents.AgentInfo,System.Collections.Generic.List`1<Unity.MLAgents.Sensors.ISensor>) (at C:/Users/krzys/deepCTF/unity/ml-agents-packages/com.unity.ml-agents/Runtime/Policies/HeuristicPolicy.cs:38)
+Unity.MLAgents.Agent:SendInfoToBrain () (at C:/Users/krzys/deepCTF/unity/ml-agents-packages/com.unity.ml-agents/Runtime/Agent.cs:1101)
+Unity.MLAgents.Agent:SendInfo () (at C:/Users/krzys/deepCTF/unity/ml-agents-packages/com.unity.ml-agents/Runtime/Agent.cs:1339)
+Unity.MLAgents.Academy:EnvironmentStep () (at C:/Users/krzys/deepCTF/unity/ml-agents-packages/com.unity.ml-agents/Runtime/Academy.cs:581)
+Unity.MLAgents.AcademyFixedUpdateStepper:FixedUpdate () (at C:/Users/krzys/deepCTF/unity/ml-agents-packages/com.unity.ml-agents/Runtime/Academy.cs:43)
+
+(Filename: C:/Users/krzys/deepCTF/unity/ml-agents-packages/com.unity.ml-agents/Runtime/Sensors/VectorSensor.cs Line: 56)
+
+Fewer observations (0) made than vector observation size (419). The observations will be padded.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:LogFormat (UnityEngine.LogType,string,object[])
+UnityEngine.Debug:LogWarningFormat (string,object[])
+Unity.MLAgents.Sensors.VectorSensor:Write (Unity.MLAgents.Sensors.ObservationWriter) (at C:/Users/krzys/deepCTF/unity/ml-agents-packages/com.unity.ml-agents/Runtime/Sensors/VectorSensor.cs:56)
+Unity.MLAgents.Policies.HeuristicPolicy:StepSensors (System.Collections.Generic.List`1<Unity.MLAgents.Sensors.ISensor>) (at C:/Users/krzys/deepCTF/unity/ml-agents-packages/com.unity.ml-agents/Runtime/Policies/HeuristicPolicy.cs:133)
+Unity.MLAgents.Policies.HeuristicPolicy:RequestDecision (Unity.MLAgents.AgentInfo,System.Collections.Generic.List`1<Unity.MLAgents.Sensors.ISensor>) (at C:/Users/krzys/deepCTF/unity/ml-agents-packages/com.unity.ml-agents/Runtime/Policies/HeuristicPolicy.cs:38)
+Unity.MLAgents.Agent:SendInfoToBrain () (at C:/Users/krzys/deepCTF/unity/ml-agents-packages/com.unity.ml-agents/Runtime/Agent.cs:1101)
+Unity.MLAgents.Agent:SendInfo () (at C:/Users/krzys/deepCTF/unity/ml-agents-packages/com.unity.ml-agents/Runtime/Agent.cs:1339)
+Unity.MLAgents.Academy:EnvironmentStep () (at C:/Users/krzys/deepCTF/unity/ml-agents-packages/com.unity.ml-agents/Runtime/Academy.cs:581)
+Unity.MLAgents.AcademyFixedUpdateStepper:FixedUpdate () (at C:/Users/krzys/deepCTF/unity/ml-agents-packages/com.unity.ml-agents/Runtime/Academy.cs:43)
+
+(Filename: C:/Users/krzys/deepCTF/unity/ml-agents-packages/com.unity.ml-agents/Runtime/Sensors/VectorSensor.cs Line: 56)
+
+Fewer observations (0) made than vector observation size (419). The observations will be padded.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:LogFormat (UnityEngine.LogType,string,object[])
+UnityEngine.Debug:LogWarningFormat (string,object[])
+Unity.MLAgents.Sensors.VectorSensor:Write (Unity.MLAgents.Sensors.ObservationWriter) (at C:/Users/krzys/deepCTF/unity/ml-agents-packages/com.unity.ml-agents/Runtime/Sensors/VectorSensor.cs:56)
+Unity.MLAgents.Policies.HeuristicPolicy:StepSensors (System.Collections.Generic.List`1<Unity.MLAgents.Sensors.ISensor>) (at C:/Users/krzys/deepCTF/unity/ml-agents-packages/com.unity.ml-agents/Runtime/Policies/HeuristicPolicy.cs:133)
+Unity.MLAgents.Policies.HeuristicPolicy:RequestDecision (Unity.MLAgents.AgentInfo,System.Collections.Generic.List`1<Unity.MLAgents.Sensors.ISensor>) (at C:/Users/krzys/deepCTF/unity/ml-agents-packages/com.unity.ml-agents/Runtime/Policies/HeuristicPolicy.cs:38)
+Unity.MLAgents.Agent:SendInfoToBrain () (at C:/Users/krzys/deepCTF/unity/ml-agents-packages/com.unity.ml-agents/Runtime/Agent.cs:1101)
+Unity.MLAgents.Agent:SendInfo () (at C:/Users/krzys/deepCTF/unity/ml-agents-packages/com.unity.ml-agents/Runtime/Agent.cs:1339)
+Unity.MLAgents.Academy:EnvironmentStep () (at C:/Users/krzys/deepCTF/unity/ml-agents-packages/com.unity.ml-agents/Runtime/Academy.cs:581)
+Unity.MLAgents.AcademyFixedUpdateStepper:FixedUpdate () (at C:/Users/krzys/deepCTF/unity/ml-agents-packages/com.unity.ml-agents/Runtime/Academy.cs:43)
+
+(Filename: C:/Users/krzys/deepCTF/unity/ml-agents-packages/com.unity.ml-agents/Runtime/Sensors/VectorSensor.cs Line: 56)
+
+Distance Difference = -3,051758E-05  Reward = -2,746582E-07
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+AgentMovementWSAD:AddFlagDistanceRewardBasedOnDistanceDifference (single,single) (at C:/Users/krzys/deepCTF/unity/CTF/Assets/Scripts/AgentMovementWSAD.cs:208)
+AgentMovementWSAD:DistanceRewardKacpraPoKonsultacji () (at C:/Users/krzys/deepCTF/unity/CTF/Assets/Scripts/AgentMovementWSAD.cs:183)
+AgentMovementWSAD:FixedUpdate () (at C:/Users/krzys/deepCTF/unity/CTF/Assets/Scripts/AgentMovementWSAD.cs:71)
+
+(Filename: C:/Users/krzys/deepCTF/unity/CTF/Assets/Scripts/AgentMovementWSAD.cs Line: 208)
+
+TOTAL DISTANCE REW. = -0,001417923
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+AgentMovementWSAD:AddFlagDistanceRewardBasedOnDistanceDifference (single,single) (at C:/Users/krzys/deepCTF/unity/CTF/Assets/Scripts/AgentMovementWSAD.cs:210)
+AgentMovementWSAD:DistanceRewardKacpraPoKonsultacji () (at C:/Users/krzys/deepCTF/unity/CTF/Assets/Scripts/AgentMovementWSAD.cs:183)
+AgentMovementWSAD:FixedUpdate () (at C:/Users/krzys/deepCTF/unity/CTF/Assets/Scripts/AgentMovementWSAD.cs:71)
+
+(Filename: C:/Users/krzys/deepCTF/unity/CTF/Assets/Scripts/AgentMovementWSAD.cs Line: 210)
+
+Distance Difference = 6,103516E-05  Reward = 5,493164E-07
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+AgentMovementWSAD:AddFlagDistanceRewardBasedOnDistanceDifference (single,single) (at C:/Users/krzys/deepCTF/unity/CTF/Assets/Scripts/AgentMovementWSAD.cs:208)
+AgentMovementWSAD:DistanceRewardKacpraPoKonsultacji () (at C:/Users/krzys/deepCTF/unity/CTF/Assets/Scripts/AgentMovementWSAD.cs:183)
+AgentMovementWSAD:FixedUpdate () (at C:/Users/krzys/deepCTF/unity/CTF/Assets/Scripts/AgentMovementWSAD.cs:71)
+
+(Filename: C:/Users/krzys/deepCTF/unity/CTF/Assets/Scripts/AgentMovementWSAD.cs Line: 208)
+
+TOTAL DISTANCE REW. = 0,001414284
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+AgentMovementWSAD:AddFlagDistanceRewardBasedOnDistanceDifference (single,single) (at C:/Users/krzys/deepCTF/unity/CTF/Assets/Scripts/AgentMovementWSAD.cs:210)
+AgentMovementWSAD:DistanceRewardKacpraPoKonsultacji () (at C:/Users/krzys/deepCTF/unity/CTF/Assets/Scripts/AgentMovementWSAD.cs:183)
+AgentMovementWSAD:FixedUpdate () (at C:/Users/krzys/deepCTF/unity/CTF/Assets/Scripts/AgentMovementWSAD.cs:71)
+
+(Filename: C:/Users/krzys/deepCTF/unity/CTF/Assets/Scripts/AgentMovementWSAD.cs Line: 210)
+
+Distance Difference = 0  Reward = 0
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+AgentMovementWSAD:AddFlagDistanceRewardBasedOnDistanceDifference (single,single) (at C:/Users/krzys/deepCTF/unity/CTF/Assets/Scripts/AgentMovementWSAD.cs:208)
+AgentMovementWSAD:DistanceRewardKacpraPoKonsultacji () (at C:/Users/krzys/deepCTF/unity/CTF/Assets/Scripts/AgentMovementWSAD.cs:183)
+AgentMovementWSAD:FixedUpdate () (at C:/Users/krzys/deepCTF/unity/CTF/Assets/Scripts/AgentMovementWSAD.cs:71)
+
+(Filename: C:/Users/krzys/deepCTF/unity/CTF/Assets/Scripts/AgentMovementWSAD.cs Line: 208)
+
+TOTAL DISTANCE REW. = 0
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+AgentMovementWSAD:AddFlagDistanceRewardBasedOnDistanceDifference (single,single) (at C:/Users/krzys/deepCTF/unity/CTF/Assets/Scripts/AgentMovementWSAD.cs:210)
+AgentMovementWSAD:DistanceRewardKacpraPoKonsultacji () (at C:/Users/krzys/deepCTF/unity/CTF/Assets/Scripts/AgentMovementWSAD.cs:183)
+AgentMovementWSAD:FixedUpdate () (at C:/Users/krzys/deepCTF/unity/CTF/Assets/Scripts/AgentMovementWSAD.cs:71)
+
+(Filename: C:/Users/krzys/deepCTF/unity/CTF/Assets/Scripts/AgentMovementWSAD.cs Line: 210)
+
+Distance Difference = 0  Reward = 0
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+AgentMovementWSAD:AddFlagDistanceRewardBasedOnDistanceDifference (single,single) (at C:/Users/krzys/deepCTF/unity/CTF/Assets/Scripts/AgentMovementWSAD.cs:208)
+AgentMovementWSAD:DistanceRewardKacpraPoKonsultacji () (at C:/Users/krzys/deepCTF/unity/CTF/Assets/Scripts/AgentMovementWSAD.cs:183)
+AgentMovementWSAD:FixedUpdate () (at C:/Users/krzys/deepCTF/unity/CTF/Assets/Scripts/AgentMovementWSAD.cs:71)
+
+(Filename: C:/Users/krzys/deepCTF/unity/CTF/Assets/Scripts/AgentMovementWSAD.cs Line: 208)
+
+TOTAL DISTANCE REW. = 0
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+AgentMovementWSAD:AddFlagDistanceRewardBasedOnDistanceDifference (single,single) (at C:/Users/krzys/deepCTF/unity/CTF/Assets/Scripts/AgentMovementWSAD.cs:210)
+AgentMovementWSAD:DistanceRewardKacpraPoKonsultacji () (at C:/Users/krzys/deepCTF/unity/CTF/Assets/Scripts/AgentMovementWSAD.cs:183)
+AgentMovementWSAD:FixedUpdate () (at C:/Users/krzys/deepCTF/unity/CTF/Assets/Scripts/AgentMovementWSAD.cs:71)
+
+(Filename: C:/Users/krzys/deepCTF/unity/CTF/Assets/Scripts/AgentMovementWSAD.cs Line: 210)
+
+Distance Difference = -0,2537384  Reward = -0,002283646
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+AgentMovementWSAD:AddFlagDistanceRewardBasedOnDistanceDifference (single,single) (at C:/Users/krzys/deepCTF/unity/CTF/Assets/Scripts/AgentMovementWSAD.cs:208)
+AgentMovementWSAD:DistanceRewardKacpraPoKonsultacji () (at C:/Users/krzys/deepCTF/unity/CTF/Assets/Scripts/AgentMovementWSAD.cs:183)
+AgentMovementWSAD:FixedUpdate () (at C:/Users/krzys/deepCTF/unity/CTF/Assets/Scripts/AgentMovementWSAD.cs:71)
+
+(Filename: C:/Users/krzys/deepCTF/unity/CTF/Assets/Scripts/AgentMovementWSAD.cs Line: 208)
+
+TOTAL DISTANCE REW. = -0,001649734
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+AgentMovementWSAD:AddFlagDistanceRewardBasedOnDistanceDifference (single,single) (at C:/Users/krzys/deepCTF/unity/CTF/Assets/Scripts/AgentMovementWSAD.cs:210)
+AgentMovementWSAD:DistanceRewardKacpraPoKonsultacji () (at C:/Users/krzys/deepCTF/unity/CTF/Assets/Scripts/AgentMovementWSAD.cs:183)
+AgentMovementWSAD:FixedUpdate () (at C:/Users/krzys/deepCTF/unity/CTF/Assets/Scripts/AgentMovementWSAD.cs:71)
+
+(Filename: C:/Users/krzys/deepCTF/unity/CTF/Assets/Scripts/AgentMovementWSAD.cs Line: 210)
+
+Distance Difference = -0,2416611  Reward = -0,00217495
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+AgentMovementWSAD:AddFlagDistanceRewardBasedOnDistanceDifference (single,single) (at C:/Users/krzys/deepCTF/unity/CTF/Assets/Scripts/AgentMovementWSAD.cs:208)
+AgentMovementWSAD:DistanceRewardKacpraPoKonsultacji () (at C:/Users/krzys/deepCTF/unity/CTF/Assets/Scripts/AgentMovementWSAD.cs:183)
+AgentMovementWSAD:FixedUpdate () (at C:/Users/krzys/deepCTF/unity/CTF/Assets/Scripts/AgentMovementWSAD.cs:71)
+
+(Filename: C:/Users/krzys/deepCTF/unity/CTF/Assets/Scripts/AgentMovementWSAD.cs Line: 208)
+
+TOTAL DISTANCE REW. = -0,003918205
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+AgentMovementWSAD:AddFlagDistanceRewardBasedOnDistanceDifference (single,single) (at C:/Users/krzys/deepCTF/unity/CTF/Assets/Scripts/AgentMovementWSAD.cs:210)
+AgentMovementWSAD:DistanceRewardKacpraPoKonsultacji () (at C:/Users/krzys/deepCTF/unity/CTF/Assets/Scripts/AgentMovementWSAD.cs:183)
+AgentMovementWSAD:FixedUpdate () (at C:/Users/krzys/deepCTF/unity/CTF/Assets/Scripts/AgentMovementWSAD.cs:71)
+
+(Filename: C:/Users/krzys/deepCTF/unity/CTF/Assets/Scripts/AgentMovementWSAD.cs Line: 210)
+
+Distance Difference = -0,388649  Reward = -0,003497841
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+AgentMovementWSAD:AddFlagDistanceRewardBasedOnDistanceDifference (single,single) (at C:/Users/krzys/deepCTF/unity/CTF/Assets/Scripts/AgentMovementWSAD.cs:208)
+AgentMovementWSAD:DistanceRewardKacpraPoKonsultacji () (at C:/Users/krzys/deepCTF/unity/CTF/Assets/Scripts/AgentMovementWSAD.cs:183)
+AgentMovementWSAD:FixedUpdate () (at C:/Users/krzys/deepCTF/unity/CTF/Assets/Scripts/AgentMovementWSAD.cs:71)
+
+(Filename: C:/Users/krzys/deepCTF/unity/CTF/Assets/Scripts/AgentMovementWSAD.cs Line: 208)
+
+TOTAL DISTANCE REW. = -0,005166252
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+AgentMovementWSAD:AddFlagDistanceRewardBasedOnDistanceDifference (single,single) (at C:/Users/krzys/deepCTF/unity/CTF/Assets/Scripts/AgentMovementWSAD.cs:210)
+AgentMovementWSAD:DistanceRewardKacpraPoKonsultacji () (at C:/Users/krzys/deepCTF/unity/CTF/Assets/Scripts/AgentMovementWSAD.cs:183)
+AgentMovementWSAD:FixedUpdate () (at C:/Users/krzys/deepCTF/unity/CTF/Assets/Scripts/AgentMovementWSAD.cs:71)
+
+(Filename: C:/Users/krzys/deepCTF/unity/CTF/Assets/Scripts/AgentMovementWSAD.cs Line: 210)
+
+Distance Difference = -0,2552643  Reward = -0,002297378
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+AgentMovementWSAD:AddFlagDistanceRewardBasedOnDistanceDifference (single,single) (at C:/Users/krzys/deepCTF/unity/CTF/Assets/Scripts/AgentMovementWSAD.cs:208)
+AgentMovementWSAD:DistanceRewardKacpraPoKonsultacji () (at C:/Users/krzys/deepCTF/unity/CTF/Assets/Scripts/AgentMovementWSAD.cs:183)
+AgentMovementWSAD:FixedUpdate () (at C:/Users/krzys/deepCTF/unity/CTF/Assets/Scripts/AgentMovementWSAD.cs:71)
+
+(Filename: C:/Users/krzys/deepCTF/unity/CTF/Assets/Scripts/AgentMovementWSAD.cs Line: 208)
+
+TOTAL DISTANCE REW. = -0,002611931
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+AgentMovementWSAD:AddFlagDistanceRewardBasedOnDistanceDifference (single,single) (at C:/Users/krzys/deepCTF/unity/CTF/Assets/Scripts/AgentMovementWSAD.cs:210)
+AgentMovementWSAD:DistanceRewardKacpraPoKonsultacji () (at C:/Users/krzys/deepCTF/unity/CTF/Assets/Scripts/AgentMovementWSAD.cs:183)
+AgentMovementWSAD:FixedUpdate () (at C:/Users/krzys/deepCTF/unity/CTF/Assets/Scripts/AgentMovementWSAD.cs:71)
+
+(Filename: C:/Users/krzys/deepCTF/unity/CTF/Assets/Scripts/AgentMovementWSAD.cs Line: 210)
+
+Fewer observations (0) made than vector observation size (419). The observations will be padded.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:LogFormat (UnityEngine.LogType,string,object[])
+UnityEngine.Debug:LogWarningFormat (string,object[])
+Unity.MLAgents.Sensors.VectorSensor:Write (Unity.MLAgents.Sensors.ObservationWriter) (at C:/Users/krzys/deepCTF/unity/ml-agents-packages/com.unity.ml-agents/Runtime/Sensors/VectorSensor.cs:56)
+Unity.MLAgents.Policies.HeuristicPolicy:StepSensors (System.Collections.Generic.List`1<Unity.MLAgents.Sensors.ISensor>) (at C:/Users/krzys/deepCTF/unity/ml-agents-packages/com.unity.ml-agents/Runtime/Policies/HeuristicPolicy.cs:133)
+Unity.MLAgents.Policies.HeuristicPolicy:RequestDecision (Unity.MLAgents.AgentInfo,System.Collections.Generic.List`1<Unity.MLAgents.Sensors.ISensor>) (at C:/Users/krzys/deepCTF/unity/ml-agents-packages/com.unity.ml-agents/Runtime/Policies/HeuristicPolicy.cs:38)
+Unity.MLAgents.Agent:SendInfoToBrain () (at C:/Users/krzys/deepCTF/unity/ml-agents-packages/com.unity.ml-agents/Runtime/Agent.cs:1101)
+Unity.MLAgents.Agent:SendInfo () (at C:/Users/krzys/deepCTF/unity/ml-agents-packages/com.unity.ml-agents/Runtime/Agent.cs:1339)
+Unity.MLAgents.Academy:EnvironmentStep () (at C:/Users/krzys/deepCTF/unity/ml-agents-packages/com.unity.ml-agents/Runtime/Academy.cs:581)
+Unity.MLAgents.AcademyFixedUpdateStepper:FixedUpdate () (at C:/Users/krzys/deepCTF/unity/ml-agents-packages/com.unity.ml-agents/Runtime/Academy.cs:43)
+
+(Filename: C:/Users/krzys/deepCTF/unity/ml-agents-packages/com.unity.ml-agents/Runtime/Sensors/VectorSensor.cs Line: 56)
+
+Fewer observations (0) made than vector observation size (419). The observations will be padded.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:LogFormat (UnityEngine.LogType,string,object[])
+UnityEngine.Debug:LogWarningFormat (string,object[])
+Unity.MLAgents.Sensors.VectorSensor:Write (Unity.MLAgents.Sensors.ObservationWriter) (at C:/Users/krzys/deepCTF/unity/ml-agents-packages/com.unity.ml-agents/Runtime/Sensors/VectorSensor.cs:56)
+Unity.MLAgents.Policies.HeuristicPolicy:StepSensors (System.Collections.Generic.List`1<Unity.MLAgents.Sensors.ISensor>) (at C:/Users/krzys/deepCTF/unity/ml-agents-packages/com.unity.ml-agents/Runtime/Policies/HeuristicPolicy.cs:133)
+Unity.MLAgents.Policies.HeuristicPolicy:RequestDecision (Unity.MLAgents.AgentInfo,System.Collections.Generic.List`1<Unity.MLAgents.Sensors.ISensor>) (at C:/Users/krzys/deepCTF/unity/ml-agents-packages/com.unity.ml-agents/Runtime/Policies/HeuristicPolicy.cs:38)
+Unity.MLAgents.Agent:SendInfoToBrain () (at C:/Users/krzys/deepCTF/unity/ml-agents-packages/com.unity.ml-agents/Runtime/Agent.cs:1101)
+Unity.MLAgents.Agent:SendInfo () (at C:/Users/krzys/deepCTF/unity/ml-agents-packages/com.unity.ml-agents/Runtime/Agent.cs:1339)
+Unity.MLAgents.Academy:EnvironmentStep () (at C:/Users/krzys/deepCTF/unity/ml-agents-packages/com.unity.ml-agents/Runtime/Academy.cs:581)
+Unity.MLAgents.AcademyFixedUpdateStepper:FixedUpdate () (at C:/Users/krzys/deepCTF/unity/ml-agents-packages/com.unity.ml-agents/Runtime/Academy.cs:43)
+
+(Filename: C:/Users/krzys/deepCTF/unity/ml-agents-packages/com.unity.ml-agents/Runtime/Sensors/VectorSensor.cs Line: 56)
+
+Fewer observations (0) made than vector observation size (419). The observations will be padded.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:LogFormat (UnityEngine.LogType,string,object[])
+UnityEngine.Debug:LogWarningFormat (string,object[])
+Unity.MLAgents.Sensors.VectorSensor:Write (Unity.MLAgents.Sensors.ObservationWriter) (at C:/Users/krzys/deepCTF/unity/ml-agents-packages/com.unity.ml-agents/Runtime/Sensors/VectorSensor.cs:56)
+Unity.MLAgents.Policies.HeuristicPolicy:StepSensors (System.Collections.Generic.List`1<Unity.MLAgents.Sensors.ISensor>) (at C:/Users/krzys/deepCTF/unity/ml-agents-packages/com.unity.ml-agents/Runtime/Policies/HeuristicPolicy.cs:133)
+Unity.MLAgents.Policies.HeuristicPolicy:RequestDecision (Unity.MLAgents.AgentInfo,System.Collections.Generic.List`1<Unity.MLAgents.Sensors.ISensor>) (at C:/Users/krzys/deepCTF/unity/ml-agents-packages/com.unity.ml-agents/Runtime/Policies/HeuristicPolicy.cs:38)
+Unity.MLAgents.Agent:SendInfoToBrain () (at C:/Users/krzys/deepCTF/unity/ml-agents-packages/com.unity.ml-agents/Runtime/Agent.cs:1101)
+Unity.MLAgents.Agent:SendInfo () (at C:/Users/krzys/deepCTF/unity/ml-agents-packages/com.unity.ml-agents/Runtime/Agent.cs:1339)
+Unity.MLAgents.Academy:EnvironmentStep () (at C:/Users/krzys/deepCTF/unity/ml-agents-packages/com.unity.ml-agents/Runtime/Academy.cs:581)
+Unity.MLAgents.AcademyFixedUpdateStepper:FixedUpdate () (at C:/Users/krzys/deepCTF/unity/ml-agents-packages/com.unity.ml-agents/Runtime/Academy.cs:43)
+
+(Filename: C:/Users/krzys/deepCTF/unity/ml-agents-packages/com.unity.ml-agents/Runtime/Sensors/VectorSensor.cs Line: 56)
+
+Fewer observations (0) made than vector observation size (419). The observations will be padded.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:LogFormat (UnityEngine.LogType,string,object[])
+UnityEngine.Debug:LogWarningFormat (string,object[])
+Unity.MLAgents.Sensors.VectorSensor:Write (Unity.MLAgents.Sensors.ObservationWriter) (at C:/Users/krzys/deepCTF/unity/ml-agents-packages/com.unity.ml-agents/Runtime/Sensors/VectorSensor.cs:56)
+Unity.MLAgents.Policies.HeuristicPolicy:StepSensors (System.Collections.Generic.List`1<Unity.MLAgents.Sensors.ISensor>) (at C:/Users/krzys/deepCTF/unity/ml-agents-packages/com.unity.ml-agents/Runtime/Policies/HeuristicPolicy.cs:133)
+Unity.MLAgents.Policies.HeuristicPolicy:RequestDecision (Unity.MLAgents.AgentInfo,System.Collections.Generic.List`1<Unity.MLAgents.Sensors.ISensor>) (at C:/Users/krzys/deepCTF/unity/ml-agents-packages/com.unity.ml-agents/Runtime/Policies/HeuristicPolicy.cs:38)
+Unity.MLAgents.Agent:SendInfoToBrain () (at C:/Users/krzys/deepCTF/unity/ml-agents-packages/com.unity.ml-agents/Runtime/Agent.cs:1101)
+Unity.MLAgents.Agent:SendInfo () (at C:/Users/krzys/deepCTF/unity/ml-agents-packages/com.unity.ml-agents/Runtime/Agent.cs:1339)
+Unity.MLAgents.Academy:EnvironmentStep () (at C:/Users/krzys/deepCTF/unity/ml-agents-packages/com.unity.ml-agents/Runtime/Academy.cs:581)
+Unity.MLAgents.AcademyFixedUpdateStepper:FixedUpdate () (at C:/Users/krzys/deepCTF/unity/ml-agents-packages/com.unity.ml-agents/Runtime/Academy.cs:43)
+
+(Filename: C:/Users/krzys/deepCTF/unity/ml-agents-packages/com.unity.ml-agents/Runtime/Sensors/VectorSensor.cs Line: 56)
+
+Distance Difference = 0  Reward = 0
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+AgentMovementWSAD:AddFlagDistanceRewardBasedOnDistanceDifference (single,single) (at C:/Users/krzys/deepCTF/unity/CTF/Assets/Scripts/AgentMovementWSAD.cs:208)
+AgentMovementWSAD:DistanceRewardKacpraPoKonsultacji () (at C:/Users/krzys/deepCTF/unity/CTF/Assets/Scripts/AgentMovementWSAD.cs:183)
+AgentMovementWSAD:FixedUpdate () (at C:/Users/krzys/deepCTF/unity/CTF/Assets/Scripts/AgentMovementWSAD.cs:71)
+
+(Filename: C:/Users/krzys/deepCTF/unity/CTF/Assets/Scripts/AgentMovementWSAD.cs Line: 208)
+
+TOTAL DISTANCE REW. = -0,001417923
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+AgentMovementWSAD:AddFlagDistanceRewardBasedOnDistanceDifference (single,single) (at C:/Users/krzys/deepCTF/unity/CTF/Assets/Scripts/AgentMovementWSAD.cs:210)
+AgentMovementWSAD:DistanceRewardKacpraPoKonsultacji () (at C:/Users/krzys/deepCTF/unity/CTF/Assets/Scripts/AgentMovementWSAD.cs:183)
+AgentMovementWSAD:FixedUpdate () (at C:/Users/krzys/deepCTF/unity/CTF/Assets/Scripts/AgentMovementWSAD.cs:71)
+
+(Filename: C:/Users/krzys/deepCTF/unity/CTF/Assets/Scripts/AgentMovementWSAD.cs Line: 210)
+
+Distance Difference = 0  Reward = 0
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+AgentMovementWSAD:AddFlagDistanceRewardBasedOnDistanceDifference (single,single) (at C:/Users/krzys/deepCTF/unity/CTF/Assets/Scripts/AgentMovementWSAD.cs:208)
+AgentMovementWSAD:DistanceRewardKacpraPoKonsultacji () (at C:/Users/krzys/deepCTF/unity/CTF/Assets/Scripts/AgentMovementWSAD.cs:183)
+AgentMovementWSAD:FixedUpdate () (at C:/Users/krzys/deepCTF/unity/CTF/Assets/Scripts/AgentMovementWSAD.cs:71)
+
+(Filename: C:/Users/krzys/deepCTF/unity/CTF/Assets/Scripts/AgentMovementWSAD.cs Line: 208)
+
+TOTAL DISTANCE REW. = 0,001414284
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+AgentMovementWSAD:AddFlagDistanceRewardBasedOnDistanceDifference (single,single) (at C:/Users/krzys/deepCTF/unity/CTF/Assets/Scripts/AgentMovementWSAD.cs:210)
+AgentMovementWSAD:DistanceRewardKacpraPoKonsultacji () (at C:/Users/krzys/deepCTF/unity/CTF/Assets/Scripts/AgentMovementWSAD.cs:183)
+AgentMovementWSAD:FixedUpdate () (at C:/Users/krzys/deepCTF/unity/CTF/Assets/Scripts/AgentMovementWSAD.cs:71)
+
+(Filename: C:/Users/krzys/deepCTF/unity/CTF/Assets/Scripts/AgentMovementWSAD.cs Line: 210)
+
+Distance Difference = 0  Reward = 0
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+AgentMovementWSAD:AddFlagDistanceRewardBasedOnDistanceDifference (single,single) (at C:/Users/krzys/deepCTF/unity/CTF/Assets/Scripts/AgentMovementWSAD.cs:208)
+AgentMovementWSAD:DistanceRewardKacpraPoKonsultacji () (at C:/Users/krzys/deepCTF/unity/CTF/Assets/Scripts/AgentMovementWSAD.cs:183)
+AgentMovementWSAD:FixedUpdate () (at C:/Users/krzys/deepCTF/unity/CTF/Assets/Scripts/AgentMovementWSAD.cs:71)
+
+(Filename: C:/Users/krzys/deepCTF/unity/CTF/Assets/Scripts/AgentMovementWSAD.cs Line: 208)
+
+TOTAL DISTANCE REW. = 0
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+AgentMovementWSAD:AddFlagDistanceRewardBasedOnDistanceDifference (single,single) (at C:/Users/krzys/deepCTF/unity/CTF/Assets/Scripts/AgentMovementWSAD.cs:210)
+AgentMovementWSAD:DistanceRewardKacpraPoKonsultacji () (at C:/Users/krzys/deepCTF/unity/CTF/Assets/Scripts/AgentMovementWSAD.cs:183)
+AgentMovementWSAD:FixedUpdate () (at C:/Users/krzys/deepCTF/unity/CTF/Assets/Scripts/AgentMovementWSAD.cs:71)
+
+(Filename: C:/Users/krzys/deepCTF/unity/CTF/Assets/Scripts/AgentMovementWSAD.cs Line: 210)
+
+Distance Difference = 0  Reward = 0
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+AgentMovementWSAD:AddFlagDistanceRewardBasedOnDistanceDifference (single,single) (at C:/Users/krzys/deepCTF/unity/CTF/Assets/Scripts/AgentMovementWSAD.cs:208)
+AgentMovementWSAD:DistanceRewardKacpraPoKonsultacji () (at C:/Users/krzys/deepCTF/unity/CTF/Assets/Scripts/AgentMovementWSAD.cs:183)
+AgentMovementWSAD:FixedUpdate () (at C:/Users/krzys/deepCTF/unity/CTF/Assets/Scripts/AgentMovementWSAD.cs:71)
+
+(Filename: C:/Users/krzys/deepCTF/unity/CTF/Assets/Scripts/AgentMovementWSAD.cs Line: 208)
+
+TOTAL DISTANCE REW. = 0
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+AgentMovementWSAD:AddFlagDistanceRewardBasedOnDistanceDifference (single,single) (at C:/Users/krzys/deepCTF/unity/CTF/Assets/Scripts/AgentMovementWSAD.cs:210)
+AgentMovementWSAD:DistanceRewardKacpraPoKonsultacji () (at C:/Users/krzys/deepCTF/unity/CTF/Assets/Scripts/AgentMovementWSAD.cs:183)
+AgentMovementWSAD:FixedUpdate () (at C:/Users/krzys/deepCTF/unity/CTF/Assets/Scripts/AgentMovementWSAD.cs:71)
+
+(Filename: C:/Users/krzys/deepCTF/unity/CTF/Assets/Scripts/AgentMovementWSAD.cs Line: 210)
+
+Distance Difference = -0,09291077  Reward = -0,0008361969
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+AgentMovementWSAD:AddFlagDistanceRewardBasedOnDistanceDifference (single,single) (at C:/Users/krzys/deepCTF/unity/CTF/Assets/Scripts/AgentMovementWSAD.cs:208)
+AgentMovementWSAD:DistanceRewardKacpraPoKonsultacji () (at C:/Users/krzys/deepCTF/unity/CTF/Assets/Scripts/AgentMovementWSAD.cs:183)
+AgentMovementWSAD:FixedUpdate () (at C:/Users/krzys/deepCTF/unity/CTF/Assets/Scripts/AgentMovementWSAD.cs:71)
+
+(Filename: C:/Users/krzys/deepCTF/unity/CTF/Assets/Scripts/AgentMovementWSAD.cs Line: 208)
+
+TOTAL DISTANCE REW. = -0,002485931
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+AgentMovementWSAD:AddFlagDistanceRewardBasedOnDistanceDifference (single,single) (at C:/Users/krzys/deepCTF/unity/CTF/Assets/Scripts/AgentMovementWSAD.cs:210)
+AgentMovementWSAD:DistanceRewardKacpraPoKonsultacji () (at C:/Users/krzys/deepCTF/unity/CTF/Assets/Scripts/AgentMovementWSAD.cs:183)
+AgentMovementWSAD:FixedUpdate () (at C:/Users/krzys/deepCTF/unity/CTF/Assets/Scripts/AgentMovementWSAD.cs:71)
+
+(Filename: C:/Users/krzys/deepCTF/unity/CTF/Assets/Scripts/AgentMovementWSAD.cs Line: 210)
+
+Distance Difference = -0,1111374  Reward = -0,001000236
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+AgentMovementWSAD:AddFlagDistanceRewardBasedOnDistanceDifference (single,single) (at C:/Users/krzys/deepCTF/unity/CTF/Assets/Scripts/AgentMovementWSAD.cs:208)
+AgentMovementWSAD:DistanceRewardKacpraPoKonsultacji () (at C:/Users/krzys/deepCTF/unity/CTF/Assets/Scripts/AgentMovementWSAD.cs:183)
+AgentMovementWSAD:FixedUpdate () (at C:/Users/krzys/deepCTF/unity/CTF/Assets/Scripts/AgentMovementWSAD.cs:71)
+
+(Filename: C:/Users/krzys/deepCTF/unity/CTF/Assets/Scripts/AgentMovementWSAD.cs Line: 208)
+
+TOTAL DISTANCE REW. = -0,004918441
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+AgentMovementWSAD:AddFlagDistanceRewardBasedOnDistanceDifference (single,single) (at C:/Users/krzys/deepCTF/unity/CTF/Assets/Scripts/AgentMovementWSAD.cs:210)
+AgentMovementWSAD:DistanceRewardKacpraPoKonsultacji () (at C:/Users/krzys/deepCTF/unity/CTF/Assets/Scripts/AgentMovementWSAD.cs:183)
+AgentMovementWSAD:FixedUpdate () (at C:/Users/krzys/deepCTF/unity/CTF/Assets/Scripts/AgentMovementWSAD.cs:71)
+
+(Filename: C:/Users/krzys/deepCTF/unity/CTF/Assets/Scripts/AgentMovementWSAD.cs Line: 210)
+
+Distance Difference = -0,1131821  Reward = -0,001018639
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+AgentMovementWSAD:AddFlagDistanceRewardBasedOnDistanceDifference (single,single) (at C:/Users/krzys/deepCTF/unity/CTF/Assets/Scripts/AgentMovementWSAD.cs:208)
+AgentMovementWSAD:DistanceRewardKacpraPoKonsultacji () (at C:/Users/krzys/deepCTF/unity/CTF/Assets/Scripts/AgentMovementWSAD.cs:183)
+AgentMovementWSAD:FixedUpdate () (at C:/Users/krzys/deepCTF/unity/CTF/Assets/Scripts/AgentMovementWSAD.cs:71)
+
+(Filename: C:/Users/krzys/deepCTF/unity/CTF/Assets/Scripts/AgentMovementWSAD.cs Line: 208)
+
+TOTAL DISTANCE REW. = -0,006184891
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+AgentMovementWSAD:AddFlagDistanceRewardBasedOnDistanceDifference (single,single) (at C:/Users/krzys/deepCTF/unity/CTF/Assets/Scripts/AgentMovementWSAD.cs:210)
+AgentMovementWSAD:DistanceRewardKacpraPoKonsultacji () (at C:/Users/krzys/deepCTF/unity/CTF/Assets/Scripts/AgentMovementWSAD.cs:183)
+AgentMovementWSAD:FixedUpdate () (at C:/Users/krzys/deepCTF/unity/CTF/Assets/Scripts/AgentMovementWSAD.cs:71)
+
+(Filename: C:/Users/krzys/deepCTF/unity/CTF/Assets/Scripts/AgentMovementWSAD.cs Line: 210)
+
+Distance Difference = -0,02910614  Reward = -0,0002619553
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+AgentMovementWSAD:AddFlagDistanceRewardBasedOnDistanceDifference (single,single) (at C:/Users/krzys/deepCTF/unity/CTF/Assets/Scripts/AgentMovementWSAD.cs:208)
+AgentMovementWSAD:DistanceRewardKacpraPoKonsultacji () (at C:/Users/krzys/deepCTF/unity/CTF/Assets/Scripts/AgentMovementWSAD.cs:183)
+AgentMovementWSAD:FixedUpdate () (at C:/Users/krzys/deepCTF/unity/CTF/Assets/Scripts/AgentMovementWSAD.cs:71)
+
+(Filename: C:/Users/krzys/deepCTF/unity/CTF/Assets/Scripts/AgentMovementWSAD.cs Line: 208)
+
+TOTAL DISTANCE REW. = -0,002873886
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+AgentMovementWSAD:AddFlagDistanceRewardBasedOnDistanceDifference (single,single) (at C:/Users/krzys/deepCTF/unity/CTF/Assets/Scripts/AgentMovementWSAD.cs:210)
+AgentMovementWSAD:DistanceRewardKacpraPoKonsultacji () (at C:/Users/krzys/deepCTF/unity/CTF/Assets/Scripts/AgentMovementWSAD.cs:183)
+AgentMovementWSAD:FixedUpdate () (at C:/Users/krzys/deepCTF/unity/CTF/Assets/Scripts/AgentMovementWSAD.cs:71)
+
+(Filename: C:/Users/krzys/deepCTF/unity/CTF/Assets/Scripts/AgentMovementWSAD.cs Line: 210)
+
+Setting up 4 worker threads for Enlighten.
+PlayerConnection::CleanupMemory Statistics:
+[ALLOC_TEMP_TLS] TLS Allocator
+  StackAllocators : 
+    [ALLOC_TEMP_MAIN]
+      Peak usage frame count: [2.0 MB-4.0 MB]: 1 frames
+      Initial Block Size 4.0 MB
+      Current Block Size 4.0 MB
+      Peak Allocated Bytes 2.1 MB
+      Overflow Count 0
+    [ALLOC_TEMP_Background Job.Worker 8]
+      Initial Block Size 32.0 KB
+      Current Block Size 32.0 KB
+      Peak Allocated Bytes 54 B
+      Overflow Count 0
+    [ALLOC_TEMP_Background Job.Worker 10]
+      Initial Block Size 32.0 KB
+      Current Block Size 32.0 KB
+      Peak Allocated Bytes 54 B
+      Overflow Count 0
+    [ALLOC_TEMP_Job.Worker 4]
+      Initial Block Size 256.0 KB
+      Current Block Size 256.0 KB
+      Peak Allocated Bytes 2.0 KB
+      Overflow Count 0
+    [ALLOC_TEMP_AUDIO_FMOD (WASAPI) feeder thread]
+      Initial Block Size 64.0 KB
+      Current Block Size 64.0 KB
+      Peak Allocated Bytes 168 B
+      Overflow Count 0
+    [ALLOC_TEMP_AUDIO_FMOD mixer thread]
+      Initial Block Size 64.0 KB
+      Current Block Size 64.0 KB
+      Peak Allocated Bytes 54 B
+      Overflow Count 0
+    [ALLOC_TEMP_Background Job.Worker 1]
+      Initial Block Size 32.0 KB
+      Current Block Size 32.0 KB
+      Peak Allocated Bytes 54 B
+      Overflow Count 0
+    [ALLOC_TEMP_Background Job.Worker 6]
+      Initial Block Size 32.0 KB
+      Current Block Size 32.0 KB
+      Peak Allocated Bytes 54 B
+      Overflow Count 0
+    [ALLOC_TEMP_Background Job.Worker 11]
+      Initial Block Size 32.0 KB
+      Current Block Size 32.0 KB
+      Peak Allocated Bytes 54 B
+      Overflow Count 0
+    [ALLOC_TEMP_Background Job.Worker 3]
+      Initial Block Size 32.0 KB
+      Current Block Size 32.0 KB
+      Peak Allocated Bytes 54 B
+      Overflow Count 0
+    [ALLOC_TEMP_BatchDeleteObjects]
+      Initial Block Size 64.0 KB
+      Current Block Size 64.0 KB
+      Peak Allocated Bytes 54 B
+      Overflow Count 0
+    [ALLOC_TEMP_AUDIO_FMOD stream thread]
+      Initial Block Size 64.0 KB
+      Current Block Size 64.0 KB
+      Peak Allocated Bytes 54 B
+      Overflow Count 0
+    [ALLOC_TEMP_Background Job.Worker 15]
+      Initial Block Size 32.0 KB
+      Current Block Size 32.0 KB
+      Peak Allocated Bytes 54 B
+      Overflow Count 0
+    [ALLOC_TEMP_Background Job.Worker 7]
+      Initial Block Size 32.0 KB
+      Current Block Size 32.0 KB
+      Peak Allocated Bytes 54 B
+      Overflow Count 0
+    [ALLOC_TEMP_Background Job.Worker 2]
+      Initial Block Size 32.0 KB
+      Current Block Size 32.0 KB
+      Peak Allocated Bytes 54 B
+      Overflow Count 0
+    [ALLOC_TEMP_Job.Worker 1]
+      Initial Block Size 256.0 KB
+      Current Block Size 256.0 KB
+      Peak Allocated Bytes 5.4 KB
+      Overflow Count 0
+    [ALLOC_TEMP_Loading.PreloadManager]
+      Initial Block Size 256.0 KB
+      Current Block Size 256.0 KB
+      Peak Allocated Bytes 103.0 KB
+      Overflow Count 8
+    [ALLOC_TEMP_Profiler.Dispatcher]
+      Initial Block Size 64.0 KB
+      Current Block Size 64.0 KB
+      Peak Allocated Bytes 0 B
+      Overflow Count 0
+    [ALLOC_TEMP_Job.Worker 3]
+      Initial Block Size 256.0 KB
+      Current Block Size 256.0 KB
+      Peak Allocated Bytes 0.8 KB
+      Overflow Count 0
+    [ALLOC_TEMP_Background Job.Worker 12]
+      Initial Block Size 32.0 KB
+      Current Block Size 32.0 KB
+      Peak Allocated Bytes 54 B
+      Overflow Count 0
+    [ALLOC_TEMP_AssetGarbageCollectorHelper] x 7
+      Initial Block Size 64.0 KB
+      Current Block Size 64.0 KB
+      Peak Allocated Bytes 0 B
+      Overflow Count 0
+    [ALLOC_TEMP_Background Job.Worker 5]
+      Initial Block Size 32.0 KB
+      Current Block Size 32.0 KB
+      Peak Allocated Bytes 54 B
+      Overflow Count 0
+    [ALLOC_TEMP_Background Job.Worker 13]
+      Initial Block Size 32.0 KB
+      Current Block Size 32.0 KB
+      Peak Allocated Bytes 54 B
+      Overflow Count 0
+    [ALLOC_TEMP_Job.Worker 2]
+      Initial Block Size 256.0 KB
+      Current Block Size 256.0 KB
+      Peak Allocated Bytes 16 B
+      Overflow Count 0
+    [ALLOC_TEMP_Background Job.Worker 0]
+      Initial Block Size 32.0 KB
+      Current Block Size 32.0 KB
+      Peak Allocated Bytes 54 B
+      Overflow Count 0
+    [ALLOC_TEMP_Background Job.Worker 4]
+      Initial Block Size 32.0 KB
+      Current Block Size 32.0 KB
+      Peak Allocated Bytes 54 B
+      Overflow Count 0
+    [ALLOC_TEMP_Job.Worker 6]
+      Initial Block Size 256.0 KB
+      Current Block Size 256.0 KB
+      Peak Allocated Bytes 0 B
+      Overflow Count 0
+    [ALLOC_TEMP_Job.Worker 5]
+      Initial Block Size 256.0 KB
+      Current Block Size 256.0 KB
+      Peak Allocated Bytes 160 B
+      Overflow Count 0
+    [ALLOC_TEMP_Background Job.Worker 14]
+      Initial Block Size 32.0 KB
+      Current Block Size 32.0 KB
+      Peak Allocated Bytes 54 B
+      Overflow Count 0
+    [ALLOC_TEMP_Job.Worker 0]
+      Initial Block Size 256.0 KB
+      Current Block Size 256.0 KB
+      Peak Allocated Bytes 9.4 KB
+      Overflow Count 0
+    [ALLOC_TEMP_EnlightenWorker] x 4
+      Initial Block Size 64.0 KB
+      Current Block Size 64.0 KB
+      Peak Allocated Bytes 54 B
+      Overflow Count 0
+    [ALLOC_TEMP_UnityGfxDeviceWorker]
+      Initial Block Size 256.0 KB
+      Current Block Size 256.0 KB
+      Peak Allocated Bytes 13.5 KB
+      Overflow Count 0
+    [ALLOC_TEMP_Background Job.Worker 9]
+      Initial Block Size 32.0 KB
+      Current Block Size 32.0 KB
+      Peak Allocated Bytes 54 B
+      Overflow Count 0
+    [ALLOC_TEMP_Loading.AsyncRead]
+      Initial Block Size 64.0 KB
+      Current Block Size 64.0 KB
+      Peak Allocated Bytes 204 B
+      Overflow Count 0
+[ALLOC_MEMORYPROFILER]
+  Peak usage frame count: [256.0 KB-0.5 MB]: 1 frames
+  Requested Block Size 1.0 MB
+  Peak Block count 1
+  Peak Allocated memory 260.5 KB
+  Peak Large allocation bytes 0 B
+[ALLOC_DEFAULT] Dual Thread Allocator
+  Peak main deferred allocation count 985
+    [ALLOC_BUCKET]
+      Large Block size 4.0 MB
+      Used Block count 1
+      Peak Allocated bytes 1.0 MB
+    [ALLOC_DEFAULT_MAIN]
+      Peak usage frame count: [8.0 MB-16.0 MB]: 1 frames
+      Requested Block Size 16.0 MB
+      Peak Block count 2
+      Peak Allocated memory 15.9 MB
+      Peak Large allocation bytes 0 B
+    [ALLOC_DEFAULT_THREAD]
+      Peak usage frame count: [16.0 MB-32.0 MB]: 1 frames
+      Requested Block Size 16.0 MB
+      Peak Block count 1
+      Peak Allocated memory 17.7 MB
+      Peak Large allocation bytes 16.0 MB
+[ALLOC_TEMP_JOB_1_FRAME]
+  Initial Block Size 2.0 MB
+  Used Block Count 1
+  Overflow Count (too large) 0
+  Overflow Count (full) 0
+[ALLOC_TEMP_JOB_2_FRAMES]
+  Initial Block Size 2.0 MB
+  Used Block Count 1
+  Overflow Count (too large) 0
+  Overflow Count (full) 0
+[ALLOC_TEMP_JOB_4_FRAMES (JobTemp)]
+  Initial Block Size 2.0 MB
+  Used Block Count 1
+  Overflow Count (too large) 0
+  Overflow Count (full) 0
+[ALLOC_TEMP_JOB_ASYNC (Background)]
+  Initial Block Size 1.0 MB
+  Used Block Count 3
+  Overflow Count (too large) 0
+  Overflow Count (full) 0
+[ALLOC_GFX] Dual Thread Allocator
+  Peak main deferred allocation count 2
+    [ALLOC_BUCKET]
+      Large Block size 4.0 MB
+      Used Block count 1
+      Peak Allocated bytes 1.0 MB
+    [ALLOC_GFX_MAIN]
+      Peak usage frame count: [2.0 MB-4.0 MB]: 1 frames
+      Requested Block Size 16.0 MB
+      Peak Block count 1
+      Peak Allocated memory 2.8 MB
+      Peak Large allocation bytes 0 B
+    [ALLOC_GFX_THREAD]
+      Peak usage frame count: [256.0 KB-0.5 MB]: 1 frames
+      Requested Block Size 16.0 MB
+      Peak Block count 1
+      Peak Allocated memory 442.7 KB
+      Peak Large allocation bytes 0 B
+[ALLOC_CACHEOBJECTS] Dual Thread Allocator
+  Peak main deferred allocation count 22
+    [ALLOC_BUCKET]
+      Large Block size 4.0 MB
+      Used Block count 1
+      Peak Allocated bytes 1.0 MB
+    [ALLOC_CACHEOBJECTS_MAIN]
+      Peak usage frame count: [1.0 MB-2.0 MB]: 1 frames
+      Requested Block Size 4.0 MB
+      Peak Block count 1
+      Peak Allocated memory 1.5 MB
+      Peak Large allocation bytes 0 B
+    [ALLOC_CACHEOBJECTS_THREAD]
+      Peak usage frame count: [1.0 MB-2.0 MB]: 1 frames
+      Requested Block Size 4.0 MB
+      Peak Block count 1
+      Peak Allocated memory 1.4 MB
+      Peak Large allocation bytes 0 B
+[ALLOC_TYPETREE] Dual Thread Allocator
+  Peak main deferred allocation count 0
+    [ALLOC_BUCKET]
+      Large Block size 4.0 MB
+      Used Block count 1
+      Peak Allocated bytes 1.0 MB
+    [ALLOC_TYPETREE_MAIN]
+      Peak usage frame count: [4.0 KB-8.0 KB]: 1 frames
+      Requested Block Size 2.0 MB
+      Peak Block count 1
+      Peak Allocated memory 5.3 KB
+      Peak Large allocation bytes 0 B
+    [ALLOC_TYPETREE_THREAD]
+      Peak usage frame count: [4.0 KB-8.0 KB]: 1 frames
+      Requested Block Size 2.0 MB
+      Peak Block count 1
+      Peak Allocated memory 6.9 KB
+      Peak Large allocation bytes 0 B
+[ALLOC_PROFILER]
+  Peak usage frame count: [16.0 KB-32.0 KB]: 1 frames
+  Requested Block Size 16.0 MB
+  Peak Block count 1
+  Peak Allocated memory 35.2 KB
+  Peak Large allocation bytes 0 B
+    [ALLOC_PROFILER_BUCKET]
+      Large Block size 4.0 MB
+      Used Block count 1
+      Peak Allocated bytes 425 B
+##utp:{"type":"MemoryLeaks","version":2,"phase":"Immediate","time":1665763631790,"processId":16708,"allocatedMemory":6205511,"memoryLabels":[{"Default":9421},{"Permanent":10160},{"NewDelete":11816},{"Thread":4228876},{"Manager":14704},{"Geometry":560},{"Texture":16},{"Shader":67176},{"Material":24},{"GfxDevice":49480},{"Animation":240},{"Audio":3928},{"Physics":304},{"Serialization":744},{"Input":14208},{"JobScheduler":200},{"Mono":40},{"ScriptingNativeRuntime":216},{"BaseObject":1617364},{"Resource":688},{"Renderer":1960},{"Transform":16},{"File":840},{"WebCam":40},{"Culling":40},{"Terrain":953},{"Wind":24},{"STL":48},{"String":3534},{"DynamicArray":30868},{"HashMap":7680},{"Utility":2976},{"PoolAlloc":1368},{"TypeTree":1792},{"ScriptManager":80},{"RuntimeInitializeOnLoadManager":80},{"SpriteAtlas":128},{"GI":3688},{"Unet":16},{"Director":7776},{"WebRequest":688},{"VR":45401},{"SceneManager":424},{"Video":32},{"LazyScriptCache":40},{"NativeArray":12},{"Camera":25},{"Secure":1},{"SerializationCache":624},{"APIUpdating":5872},{"Subsystems":392},{"VirtualTexturing":57888},{"AssetReference":40}]}
