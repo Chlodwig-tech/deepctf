@@ -37,6 +37,7 @@ public class AgentMovementWSAD : Agent
 
     void Awake()
     {
+        /*
         var levelOrFreeMode = PlayerPrefs.GetInt("level");
         if (levelOrFreeMode != 4 && gameObject.GetComponent<AgentComponentsScript>().color == "blue")
         {
@@ -48,7 +49,7 @@ public class AgentMovementWSAD : Agent
             isTrainer = false;
             gameObject.GetComponent<BehaviorParameters>().BehaviorType = BehaviorType.Default;
         }
-
+        */
         isAgentSet = false;
         if (isTrainer)
         {
